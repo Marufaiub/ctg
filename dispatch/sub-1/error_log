@@ -1,0 +1,5 @@
+[18-Aug-2013 05:21:44] PHP Parse error:  syntax error, unexpected '.' in /home7/beautzf1/public_html/dispatch/sub-1/a.php on line 12
+[18-Aug-2013 05:21:47] PHP Parse error:  syntax error, unexpected '.' in /home7/beautzf1/public_html/dispatch/sub-1/a.php on line 12
+[18-Aug-2013 05:22:05] PHP Fatal error:  Call to undefined function  show404error() in /home7/beautzf1/public_html/dispatch/sub-1/a.php on line 15
+[18-Aug-2013 05:24:05] PHP Fatal error:  Call to undefined function  show404error() in /home7/beautzf1/public_html/dispatch/sub-1/picture.php on line 15
+[18-Aug-2013 05:24:17] PHP Fatal error:  Call to undefined function  show404error() in /home7/beautzf1/public_html/dispatch/sub-1/picture.php on line 15

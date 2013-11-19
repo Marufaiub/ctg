@@ -1,0 +1,5005 @@
+
+/* Footer ================================================================================ */
+.footer-container { /*border-top:15px solid #b6d1e2;*/ }
+.footer { width:930px; margin:0 auto; padding:10px 10px 50px; }
+.footer .store-switcher { display:inline; margin:0 5px 0 0; color:#fff; }
+.footer .store-switcher label { font-weight:bold; vertical-align:middle; }
+.footer .store-switcher select { padding:0; vertical-align:middle; }
+.footer a { color:#fff; text-decoration:none; }
+.footer a:hover { text-decoration:underline; }
+.footer .bugs { margin:13px 0 0; color:#ecf3f6; }
+.footer .bugs a { color:#ecf3f6; text-decoration:underline; }
+.footer .bugs a:hover { text-decoration:none; }
+.footer address { margin:0 0 20px; color:#ecf3f6; }
+.footer address a { color:#ecf3f6; text-decoration:underline; }
+.footer address a:hover { text-decoration:none; }
+.footer ul { display:inline; }
+.footer ul.links { display:block; }
+.footer li { display:inline; background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/bkg_pipe2.gif) 100% 60% no-repeat; padding:0 7px 0 4px; }
+.footer li.last { background:none !important; padding-right:0 !important; }
+.footer-container .bottom-container { margin:0 0 5px; }
+/* ======================================================================================= */
+
+/* Sample Data============================================================================ */
+.home-callout { margin-bottom:12px; }
+.home-callout img { display:block }
+.home-spot { float:left; width:470px; margin-left:20px; }
+.best-selling h3 { margin:12px 0 6px 0; color:#e25203; font-size:1.2em; }
+.best-selling table { border-top:1px solid #ccc; }
+.best-selling tr.odd { background:#eee url(http://www.akhoni.com/skin/frontend/default/akhoni/images/best_selling_tr_odd_bg.gif) 0 100% repeat-x; }
+.best-selling tr.even { background:#fff url(http://www.akhoni.com/skin/frontend/default/akhoni/images/best_selling_tr_even_bg.gif) 0 100% repeat-x; }
+.best-selling td { width:50%; border-bottom:1px solid #ccc; padding:8px 10px 8px 8px; font-size:11px; }
+.best-selling .product-img { float:left; border:2px solid #dcdcdc; }
+.best-selling .product-description { margin-left:107px; line-height:1.3em; }
+.best-selling a.product-name,
+.home-spot .best-selling a.product-name:hover { color:#203548; }
+/* ======================================================================================= */
+
+
+.guest-select {width:305px !important;}
+
+
+/********************** design ************************/
+
+.footer-container{} 
+
+.clear
+{
+    display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden;
+}
+
+@font-face {
+	font-family: DroidSans_font;
+	src: url('http://www.akhoni.com/skin/frontend/default/akhoni/fonts/DroidSans.ttf');
+}
+@font-face {
+    font-family: Arial_Rounded_MT_Bold;
+    src: url('http://www.akhoni.com/skin/frontend/default/akhoni/fonts/ArialRoundedMTBold.ttf');
+}
+
+body
+{
+    background: #FFFFFF;
+}
+.wrapper
+{
+    position: relative;
+    overflow: hidden;
+}
+.col-right 
+{
+    width: 213px;
+}
+
+
+.product-view .product-shop .price-box .price_discounts .disount_label, .product-view .product-shop .price-box .price_discounts .save_label,
+.product-view .product-shop .price-from .price-label, .product-view .product-shop .price-to .price-label, .product-view .product-shop .price-box .price-as-configured .price-label
+{
+    display: block;
+    margin-top: 13px;
+    font-weight: normal;
+}
+
+.product-view .product-shop .price-box .price_discounts .discount,
+.col-right .block-related .product .price-box .price_discounts .discount,
+.product-view .product-options-bottom .price-box .price_discounts .discount
+{
+    /*color: #FF3AE6;*/
+}
+
+.product-view .product-shop .product_qty_addCart
+{
+    float: left !important;
+    margin-top: 16px;
+    width: auto !important;
+    clear: both;
+}
+
+.product-view .product-shop .product_qty, .product-view .product-options-bottom .product_qty
+{
+    float: left;
+    color: #282828;
+    width: 140px;
+    height: 53px;
+    line-height: 50px;
+    font-size: 14px;
+}
+.product-view .product-options-bottom .product_qty
+{
+    /*width: 216px !important;*/
+}
+.product-view .product-shop .product-options-bottom .product_qty
+{
+    margin-left: 0px;
+
+}
+.product-view .product-options-bottom .product_qty
+{
+    margin-left: 27px;
+}
+.product-view .product-shop .product_qty input, .product-view .product-options-bottom .product_qty input
+{
+    border: 1px solid #d7d7d7;
+    width: 57px;
+    height: 39px;
+    text-align: center;
+    font-size: 14px;
+    color: #787878;
+}
+
+.product-view .product_qty label
+{
+    font-weight: bold;
+}
+
+.product-view .product-shop .add-to-cart button.button, .product-view .product-options-bottom .add-to-cart button.button
+{
+    width: 179px;
+    height: 45px;
+}
+.product-view .product-shop .add-to-cart button.button span, .product-view .product-options-bottom .add-to-cart button.button span
+{
+    background: none;
+    border: none;
+    color: #000000;
+    width: 179px;
+    height: 45px;
+    display: block;
+    text-indent: -999em;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/addCartView.png) no-repeat;
+    padding: 0;
+}
+
+.product-view .product-shop .update_cart button.button span, .product-view .product-options-bottom .update_cart button.button span
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/update_cart.png) no-repeat !important;
+}
+
+.product-view .product-shop .update_cart button.button span, .product-view .product-options-bottom .update_cart button.button span,
+.product-view .product-shop .update_cart button.button, .product-view .product-options-bottom .update_cart button.button,
+.product-view .product-shop .update_cart, .product-view .product-options-bottom .update_cart
+{
+    width: 185px !important;
+}
+
+.product-view .product-shop .add-to-cart, .product-view .product-options-bottom .add-to-cart
+{
+    width: 179px;
+    height: 45px;
+    overflow: hidden;
+    /*clear: both;*/
+    margin-top: 4px;
+}
+.product-view .product-options-bottom .add-to-cart
+{
+    clear: none !important;
+    margin-right: 3px;
+}
+.product-view .product-shop .product-options-bottom .add-to-cart
+{
+    float: left !important;
+}
+.product-view .product-shop ul.add-to-links, .product-view .product-options-bottom ul.add-to-links
+{
+    width: 100%;
+    display: block;
+    margin: 21px 0;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+.product-view .product-options-bottom ul.add-to-links
+{
+    text-align: left !important;
+}
+.product-view .product-shop ul.add-to-links li, .product-view .product-options-bottom ul.add-to-links li
+{
+    display: block;
+    float: left;
+    width: 149px;
+    height: 23px;
+    line-height: 23px;
+    margin: 9.5px 0;
+}
+.product-view .product-shop ul.add-to-links li.add_wishlist_view, .product-view .product-options-bottom ul.add-to-links li.add_wishlist_view
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/wish-star.png") no-repeat scroll 3px 0 transparent;
+}
+.product-view .product-shop ul.add-to-links li.add_wishlist_view:hover, .product-view .product-options-bottom ul.add-to-links li.add_wishlist_view:hover
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/wish-star.png") no-repeat scroll 3px -23px transparent;
+}
+.product-view .product-shop ul.add-to-links li.email-friend, .product-view .product-options-bottom ul.add-to-links li.email-friend
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/email_frnd.png) no-repeat scroll 3px 52% transparent;
+}
+.product-view .product-shop ul.add-to-links li a, .product-view .product-options-bottom ul.add-to-links li a
+{
+    text-decoration: none;
+    color: #454545 !important;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold !important;
+    margin-left: 34px;
+    display: block;
+    height: 23px;
+}
+.product-view .product-essential .grouped-items-table .product_name
+{
+    font-family: Tahoma;
+    color: #787878;
+    font-size: 12px;
+    line-height: 33px;
+}
+.product-view .product-essential .grouped-items-table thead tr th
+{
+    border-bottom: 1px solid #d7d7d7;
+}
+.product-view .product-essential .grouped-items-table td.last
+{
+    line-height: 36px;
+}
+.product-view .product-essential .grouped-items-table td
+{
+    padding: 9px 8px 0;
+}
+.checkout-onepage-index .col-main .nav-container
+{
+    margin-top: -80px;
+}
+.product-view .price-label
+{
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #787878;
+}
+.product-view .minimal-price .price-label, .category-products .price-label
+{
+    float: left;
+    line-height: 34px;
+    width: 43px;
+    display: block;
+}
+
+.product-view .aw-mini-related-items .price-label, .category-products .price-label
+{
+    line-height: 16px !important;
+}
+.product-view .minimal-price .price-label
+{
+    width: 70px !important;
+}
+.product-view .product-shop .review_count
+{
+    color: #454545;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.category-products .minimal-price .price-label
+{
+    width: 65px !important;
+}
+.price-box-bundle
+{
+    overflow: hidden;
+}
+.product-view .product-options-bottom
+{
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.product-view .product-options-bottom .product_qty_addCart
+{
+    float: right;
+    width: 354px;
+}
+
+.product-view .product-shop .addthis_toolbox
+{
+    float: left;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+
+.product-view .product-shop .addthis_toolbox > a
+{
+    width: 60px;
+    float: left;
+    display: block;
+    margin-right: 14px;
+    color: #000000;
+}
+
+.product-view .product-shop .addthis_toolbox .share_facebook
+{
+    height: 22px;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/facebook_counter.png") no-repeat scroll 0 0 transparent;
+    text-indent: -999999px;
+}
+
+.product-view .product-shop .addthis_toolbox .share_twitter
+{
+    height: 22px;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/twitter_counter.png") no-repeat scroll 0 0 transparent;
+    text-indent: -999999px;
+}
+
+.product-view .product-shop .addthis_toolbox .share_google_plus
+{
+    
+    background: -moz-linear-gradient(center top , #D5D5D5 0px, #EFEFEF 48%, #FFFFFF 94%) repeat scroll 0 0 transparent;
+    border: 1px solid #BFBFBF;
+    border-radius: 4px 4px 4px 4px;
+    display: block;
+    font-family: serif;
+    width: 70px;
+    height: 17px;
+    padding: 2px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.product-view .product-shop .addthis_toolbox .share_google_plus span
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/googleplus_16.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    width: 52px;
+    height: 16px;
+    line-height: 16px;
+    padding-left: 21px;
+}
+
+
+/**** product view new styles *****/
+
+.product-view .product-shop .size_chart
+{
+    display: block;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/size_chart_bk.png") no-repeat scroll right 10% transparent;
+    font-size: 12px;
+    font-family: tahoma;
+    color: #6b1846;
+    text-decoration: none;
+    width: 112px;
+    height: 22px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+.product-shop .product-options
+{
+    padding: 0;
+    margin: 12px 0 0 0;
+    background: #ffffff;
+    border: none;
+}
+
+.product-shop .product-options > dl > dt
+{
+    padding: 0;
+    float: left;
+}
+
+.product-shop .product-options > dl > dt label
+{
+    display: block;
+    background: #6b1846;
+    color: #ffffff;
+    height: 23px;
+    line-height: 22px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    padding: 0 9px;
+    position: relative;
+}
+.product-shop .product-options > dl > dt label em
+{
+    display:none;
+}
+
+.product-shop .product-options > dl > dt label:after
+{
+	left: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.product-shop .product-options > dl > dt label:after
+{
+	border-color: rgba(107, 24, 70, 0);
+	border-left-color: #6b1846;
+	border-width: 5px;
+	top: 50%;
+	margin-top: -5px;
+}
+
+
+.product-shop .product-options > dl > dd
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.product-shop .product-options > dl > dd .swatches-container
+{
+    margin: 0 0 0 90px;
+}
+
+.swatches-container .swatch-img
+{
+    margin: 0 6px 0 0 !important;
+}
+
+.product-shop .product-options p.required
+{
+    top: 3px;
+}
+
+.product-view .product-shop .product-options-bottom
+{
+    border: 0;
+    padding: 0;
+}
+
+/**** product view new styles *****/
+
+
+.col-right
+{
+    width: 213px;
+    padding-top:45px;
+}
+
+.col-right .block-related
+{
+    width: 211px;
+    border:1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.col-right .block-related .block-title
+{
+    background: #f7f7f7;
+    height: 35px;
+    border-bottom: 1px solid #d7d7d7;
+    padding: 0 0 0 14px;
+}
+.col-right .block-related .block-title strong
+{
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000000;
+    padding: 0;
+    line-height: 35px;
+}
+.col-right .block-related .block-content
+{
+    padding: 18px 13px 18px 15px;
+}
+.col-right .block-related .block-content, .col-right .block-related .block-content li
+{
+    background: none !important;
+}
+.col-right .block-related .block-content li
+{
+    padding: 0;
+    
+}
+.col-right .block-related .block-content li.odd
+{
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 19px;
+}
+.col-right .block-related .block-content li.even
+{
+    margin-top: 21px;
+}
+.col-right .block-related .product .product-image
+{
+    width: 48px;
+    height: 52px;
+    border: 1px solid #d7d7d7;
+}
+.col-right .block-related .product .product-name
+{
+    width: 110px;
+    height: 32px;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+.col-right .block-related .product .product-name a
+{
+    font-family: Tahoma;
+    color: #282828;
+    font-size: 13px;
+    text-decoration: none;
+}
+.col-right .block-related .product .price-box
+{
+    margin: 0 0 5px;
+    height: 70px;
+    line-height: 17px;
+}
+.col-right .block-related .product .price-box p
+{
+    margin: 0;
+}
+.col-right .block-related .product .price-box .special-price
+{
+    float: left;
+    padding: 0 !important;
+}
+.col-right .block-related .product .price-box .old-price .price
+{
+    text-decoration: line-through;
+    color: #8B8989;
+}
+
+.col-right .block-related .product .price-box .price_discounts > span
+{
+    clear: both;
+    display: block;
+}
+
+.col-right .block-related .product .price-box .special-price .price, .col-right .block-related .product .price-box .regular-price .price
+{
+    color:#6e1550;
+    font-size: 13px;
+    font-weight: bold;
+}
+.col-right .block-related .product .product-details
+{
+    margin: 0;
+}
+.col-right .block-related .product .product-details .related_name_img
+{
+    margin-left: 10px;
+    width: 118px;
+}
+.col-right .block-related .product .product_addTo
+{
+    height: 13px;
+}
+.col-right .block-related .product .product_addTo .related-checkbox
+{
+    margin: 0;
+}
+.col-right .block-related .product .product_addTo .related_add_cart
+{
+    width: 63px;
+    margin-left: 9px;
+    height: 13px;
+}
+.col-right .block-related .product .product_addTo .related_add_cart span
+{
+    background: none;
+    border: none;
+    height: 13px;
+    padding: 0px;
+    color: #282828;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Tahoma;
+    float: left;
+}
+.col-right .block-related .product .product_addTo .related_add_cart span span
+{
+    line-height: 13px;
+}
+.col-right .block-related .product .product_addTo .related_add_cart button.button
+{
+    height: 13px;
+    float: left;
+}
+.col-right .block-related .product .product_addTo  a.link-wishlist
+{
+    float: right;
+    text-decoration: none;
+    color: #6b1846 !important;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+
+/*********** shopping cart *********************/
+.cart 
+{
+    border:1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom:20px;
+    padding: 17px 20px 40px 22px;
+}
+.cart .page-title h1 
+{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Arial_Rounded_MT_Bold;
+}
+.cart .title-buttons .checkout-types button.btn-checkout, .cart .cart-collaterals .totals .checkout-types button
+{
+    width:260px;
+    height: 45px;
+    display: block;
+}
+.cart .cart-collaterals .totals .checkout-types button
+{
+    margin-left: 6px;
+}
+.cart .title-buttons .checkout-types  button.btn-checkout span span, .cart .cart-collaterals .totals .checkout-types  button.btn-checkout span span 
+{
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial_Rounded_MT_Bold;
+    line-height: 41px;
+    width:260px;
+    height: 45px;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/procced_checkout.png) no-repeat ;
+    text-align:left;
+    padding-left:15px;
+    border:none;
+    color:white;
+}
+
+.cart .title-buttons .checkout-types button.btn-checkout span, .cart .cart-collaterals .totals .checkout-types button.btn-checkout span 
+{
+    padding: 0px;
+    width:260px;
+    height: 45px;
+    display: block;
+}
+
+.cart .totals 
+{
+    width:302px;
+    border:1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f7f7f7;
+}
+.cart .cart-collaterals .totals .checkout-types li a
+{
+    color: #262626;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+.cart .totals .checkout-types li 
+{
+    text-align: center;
+}
+.cart .cart-table .btn-continue span span
+{
+    /*width:120px;*/
+    height: 30px;
+}
+.cart .cart-table .btn-continue span 
+{
+    background:none;
+    border: none;
+    padding: 0;
+}
+
+.cart .cart-table .btn-continue span span, .cart .cart-table .btn-update span span,
+.cart .discount .buttons-set button.button span span, .cart .shipping .buttons-set button.button span span
+{
+    display: block;
+    line-height: 24px;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+}
+
+
+.cart .cart-table .btn-continue span span 
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png") repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 29px;
+    padding:0 10px;
+}
+
+.cart .cart-table .btn-update span span 
+{
+    /*width:134px;*/
+    height: 30px;
+    line-height: 29px;
+}
+.cart .cart-table .btn-update span 
+{
+    background:none;
+    border: none;
+    padding: 0;
+}
+.cart .cart-table .btn-update span span 
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png") repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.cart .cart-table .btn-empty 
+{
+    display: none;
+}
+.cart .data-table
+{
+    background: #f7f7f7;
+    border:1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.cart .cart-collaterals .col2-set
+{
+    width:611px;
+    padding-right: 21px;
+}
+.cart .cart-collaterals .col2-set .col-2 
+{
+    width:350px;
+    height:auto;
+    border:1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f7f7f7;
+}
+.cart .discount 
+{
+    border:none;
+    margin:0px;
+    background:none;
+    padding: 26px 15px 0 22px;
+}
+.cart .shipping 
+{
+    border: none;
+    background:none;
+    padding-top:32px;
+    padding-left:22px;
+}
+.cart .shopping_cart_left_add 
+{
+    width: 240px;
+}
+.cart .discount input.input-text 
+{
+  background: #f7f7f7;  
+  border:1px solid #d7d7d7;
+  width:195px;
+  height: 23px;
+}
+.cart .form-list select
+{
+  background: #f7f7f7;  
+  border:1px solid #d7d7d7;
+  width:309px;
+}
+.cart .form-list input.input-text
+{
+    background: #f7f7f7; 
+    border:1px solid #d7d7d7; 
+    width:302px; 
+    height: 23px;
+}
+.cart .discount h2, .cart .shipping h2 
+{
+    padding:0px;
+    color:#262626;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: Tahoma;
+    text-transform: capitalize;
+}
+.cart .discount .buttons-set button.button span
+{
+    height:24px;
+}   
+.cart .discount .buttons-set button.button span span 
+{
+    /*width:95px;*/
+    height:30px;
+    line-height:28px;
+}
+.cart .discount .buttons-set button.button span 
+{
+    padding: 0;
+    display: block;
+}
+.cart .discount .buttons-set button.button span span 
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png") repeat-x scroll 0 0 transparent;
+    /* border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+
+.cart .data-table tbody th, .cart .data-table tbody td
+{
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.cart .shipping .buttons-set button.button span span 
+{
+    /*width:87px;*/
+    height:30px;
+    line-height: 28px;
+}
+.cart .shipping .buttons-set button.button span 
+{
+    padding: 0;
+}
+.cart .shipping .buttons-set button.button span span 
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png") repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding:0 10px;
+}
+.cart .form-list label
+{
+    color:#262626;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+.cart .discount-form label 
+{
+    color:#262626;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: normal;
+}
+.cart .shipping-form p
+{
+    color:#262626;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: normal;
+}
+.cart .discount .input-box 
+{
+    float:left;
+    width:195px;
+}
+.cart .discount .buttons-set
+{
+    clear: none;
+    text-align: right;
+    margin: 6px 0 0;
+}
+.cart .shipping .buttons-set
+{
+    margin-top: 20px;
+}
+.cart .totals .a-right 
+{
+    text-align: left !important;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#262626;
+    padding-left:25px;
+    vertical-align: middle;
+}
+.cart .cart-collaterals .totals #shopping-cart-totals-table
+{
+    margin-top:25px;
+    padding-right: 15px;
+}
+.cart .totals tfoot th strong, .cart .totals tfoot td strong
+{
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#262626;
+}
+.cart .totals .a-right .price
+{
+   font-family: Tahoma;
+   font-size: 22px;
+   font-weight: bold; 
+   color:#262626;
+}
+.cart .cart-table tfoot td
+{
+    padding:8px 10px;
+}
+.cart .messages .success-msg 
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/cart_success_icon.png) 0 0 no-repeat #f7f7f7 ;
+    background-position: 12px 22px !important;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #282828;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: normal !important;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 18px !important;
+}
+
+.cart .data-table thead th
+{
+    border-bottom:1px solid #e0e0e0;
+    color:#282828;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: normal;
+}
+.cart .data-table input.qty
+{
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    width: 48px !important;
+    background-color: #f7f7f7;
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#4f4f4f;
+    height: 23px;
+}
+.cart .cart-table .product-name a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#282828;
+}
+.cart .data-table tbody tr.last th, .cart .data-table tbody tr.last td
+{
+    vertical-align: middle;
+}
+.cart .data-table tbody tr td .price
+{
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#282828;
+}
+.cart .data-table .btn-remove2
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/cart_trash.png") no-repeat scroll 0 0 transparent;
+    height:19px;
+    width:18px;
+}
+.cart .data-table tbody tr td img
+{
+    width:100px;
+    height:100px;
+    border:1px solid #e0e0e0;
+}
+.cart .data-table .checkout_product_name
+{
+    width: 466px;
+}
+.cart .data-table .link-wishlist
+{
+    color:#932a6f !important;
+}
+
+
+
+
+/*********************************Checkout***************************/
+.checkout-onepage-index .col-right
+{
+    padding-top: 0px;
+}
+.checkout_onepage #checkoutSteps
+{
+    width:700px;
+    margin-bottom: 63px;
+    margin-left: 20px;
+    border-bottom: 1px solid #d3d2d2;
+}
+.checkout_onepage .page-title
+{
+    border-bottom: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.checkout_onepage .page-title h1
+{
+    font-size: 22px;
+    font-weight: normal;
+    font-family: Arial_Rounded_MT_Bold;
+    color:#651149;
+}
+.checkout_onepage .opc .active .step-title .number 
+{
+    background: #973576;
+    border:1px solid #973576;
+    height: 20px;
+    width: 20px;
+    text-align:center;
+    padding:0px;
+    font-family: Tahoma;
+    font-weight: normal;
+    margin: 8px 14px 0px 20px;
+}
+.checkout_onepage .opc .active .step-title h2
+{
+    color:#3a3a3a;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.checkout_onepage .opc .active .step-title
+{
+    padding: 0 0 9px;
+    background:#f4f4f4;
+    border: 1px solid #d9d9d9;
+}
+.checkout_onepage .opc .step
+{
+    background:#fbfbfb;
+    border-left:1px solid #e5e5e5;
+    border-right:1px solid #e5e5e5;
+    border-bottom:none;
+    padding: 22px 59px 23px 18px;
+}
+.checkout_onepage .opc .step-title
+{
+    padding: 0 0 9px;
+    background:#e2e2e2;
+    border:1px solid #d3d2d2;
+    border-bottom: none;
+}
+.checkout_onepage .opc .step-title .number 
+{
+    background: #282828;
+    border:1px solid #282828;
+    height: 20px;
+    width: 20px;
+    text-align:center;
+    padding:0px;
+    font-family: Tahoma;
+    font-weight: normal;
+    margin: 8px 14px 0px 20px;
+    color:white;
+}
+.checkout_onepage .opc .step-title h2
+{
+    color:#3a3a3a !important;
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.checkout_onepage #onepage-guest-register-button span
+{
+    padding:0;
+}
+.checkout_onepage #onepage-guest-register-button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_button.png) repeat-x scroll 0 0 transparent;
+    border:1px solid #d89d09;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 32px;
+    line-height:30px;
+    width: 75px;
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+}
+.checkout_onepage #billing-buttons-container button span
+{
+    padding:0;
+    background: none;
+}
+.checkout_onepage #billing-buttons-container button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_button.png) repeat-x scroll 0 0 transparent;
+    border:1px solid #d89d09;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 32px;
+    line-height:30px;
+    width: 90px;
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+}
+.checkout_onepage #shipping-buttons-container button span
+{
+    padding:0;
+    background: none;
+}
+.checkout_onepage #shipping-buttons-container button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png) repeat-x scroll 0 0 transparent;
+    border:1px solid #d89d09;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 22px;
+    line-height:21px;
+    width: 75px;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#651149;
+}
+.checkout_onepage #shipping-method-buttons-container button span
+{
+    padding:0;
+    background: none;
+}
+.checkout_onepage #shipping-method-buttons-container button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png) repeat-x scroll 0 0 transparent;
+    border:1px solid #d89d09; 
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 22px;
+    line-height:21px;
+    width: 75px;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#651149;
+}
+.checkout_onepage #payment-buttons-container button span
+{
+    padding:0;
+    background: none;
+}
+.checkout_onepage #payment-buttons-container button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png) repeat-x scroll 0 0 transparent;
+    border:1px solid #d89d09;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 22px;
+    line-height:21px;
+    width: 75px;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#651149;
+}
+.checkout_onepage #checkout_login span
+{
+     border:none;
+     background: none;
+     padding:0;
+}
+.checkout_onepage #checkout_login span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_button.png) repeat-x scroll 0 0 transparent;
+    border:1px solid #d89d09;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 32px;
+    line-height:30px;
+    width: 65px;
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+}
+#checkout-progress-wrapper .block-progress .block-title
+{
+    margin-bottom:20px;
+}
+#checkout-progress-wrapper
+{
+    margin-top: 35px;
+}
+#checkout-progress-wrapper .block-progress .block-title span
+{
+    text-transform: capitalize;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#3a3a3a;
+    font-size: 13px;
+}
+#checkout-progress-wrapper .block-progress dt
+{
+    margin: 0px;
+    height:38px;
+    border:none;
+    border-bottom:1px solid #d3d2d2;
+    line-height: 38px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#282828;
+    padding-left:18px;
+}
+#checkout-progress-wrapper .block-progress .last
+{
+    border-bottom: none;
+}
+#checkout-progress-wrapper .block-progress .block-content 
+{
+    border:1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #f4f4f4;
+    width: 211px;
+}
+#checkout-progress-wrapper .block-progress dd
+{
+    margin:0px;
+    border:none;
+    border-bottom:1px solid #d3d2d2;
+}
+.checkout-onepage-index #checkout-progress-wrapper address 
+{
+    color:#282828;
+    float:none;
+}
+.checkout_onepage #opc-billing .form-list .control
+{
+    float:left;
+}
+.checkout_onepage #opc-billing .form-list li.control input.radio,
+.checkout_onepage #opc-billing .form-list li.control input.checkbox
+{
+    margin-right: 4px;
+}
+.checkout_onepage #billing-buttons-container
+{
+    border:none;
+}
+.checkout_onepage .form-list label
+{
+    font-family:Tahoma;
+    font-weight: normal;
+    color:#4f4f4f;
+}
+.checkout_onepage #opc-billing .form-list .control label 
+{
+    font-family:Tahoma;
+    font-weight: bold;
+    color:#3a3a3a;
+}
+.checkout_onepage .form-list input.input-text
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png) repeat-x scroll 0 0 transparent;
+    width: 294px;
+    height: 35px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    
+}
+.checkout_onepage .form-list input.input-text:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+.checkout_onepage .form-list .billing_region .regions
+{
+    height: 34px !important;
+    margin-top: -36px;
+    width: 294px !important;
+    border-top: 1px solid #f7f7f7 !important;
+}
+.billing_region
+{
+   background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_select.png) no-repeat scroll 0 0 transparent; 
+   height:30px;
+   width: 301px;
+   padding-top: 10px;
+}
+.billing_region:focus
+{
+    
+}
+.billing_country
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_select.png") no-repeat scroll 0 0 transparent;
+    height: 30px;
+    padding-top: 10px;
+    width:301px;
+}
+.checkout_onepage .form-list select
+{
+    opacity:0;
+    width: 301px;
+    height: 40px;
+    display: block;
+    margin-top: -28px;
+}
+.checkout_onepage .form-list .field
+{
+    margin-right: 10px;
+    width: auto;
+}
+.checkout_onepage .form-list .input-box
+{
+    width:auto;
+}
+.checkout_onepage .form-list li.wide input.input-text
+{
+    width:604px;
+}
+.checkout_onepage #opc-billing .form-list .control
+{
+    margin-right:18px;
+}
+.checkout_onepage #checkout-review-submit #review-buttons-container button.btn-checkout span
+{
+    border:none;
+    background: none;
+    padding: 0;
+}
+.checkout_onepage #checkout-review-submit #review-buttons-container button.btn-checkout span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png) repeat-x scroll 0 0 transparent;
+    border:1px solid #d89d09;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 22px;
+    line-height:21px;
+    width: 95px;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color:#651149;
+}
+.checkout_onepage #checkout-review-submit #review-buttons-container
+{
+    border-bottom:none;
+}
+#checkout-review-table-wrapper .data-table
+{
+    border:1px solid #d3d2d2;
+    border-top:none;
+}
+.checkout-onepage-index .main
+{
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: 980px;
+    padding-bottom: 10px;
+}
+.checkout-onepage-index .col-right
+{
+    width: 234px;
+}
+.checkout-onepage-index .col-main
+{
+    width:720px;
+}
+.checkout-onepage-success .buttons-set button.button span
+{
+    border: none;
+    background: none;
+    padding:0;
+}
+.checkout-onepage-success .buttons-set button.button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png) repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 30px;
+    line-height:29px;
+    /*width: 120px;*/
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+    padding: 0 10px;
+}
+.checkout-onepage-success .page-title
+{
+    border-bottom: medium none;
+    margin-top: 20px;
+}
+.checkout-onepage-success .page-title h1, .cms-index-noroute .page-head-alt h3
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 28px;
+    font-weight: normal;
+    color: #651149;
+    float: left;
+    height: 93px;
+    line-height: 112px;
+    margin-left: 15px;
+}
+
+.cms-index-noroute .page-head-alt
+{
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.checkout-onepage-success h2
+{
+    color: #e8b100;
+    font-family:Tahoma;
+    font-weight: bold;
+}
+.checkout-cart-index .col-main
+{
+    padding-top: 20px;
+}
+.checkout-cart-index .page-title
+{
+    border-bottom: medium none;
+    font-family: tahoma;
+}
+.checkout-cart-index .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;
+}
+.checkout_onepage .data-table tbody th, .checkout_onepage .data-table tbody td
+{
+    padding:5px;
+}
+.checkout_onepage .data-table thead th
+{
+    border-bottom:1px solid #d9dde3;
+    color: #973576;
+}
+.checkout_onepage #checkout-review-table tfoot td
+{
+    padding: 5px;
+}
+.checkout_onepage #checkout-review-table tfoot .last td
+{
+    border-top:1px solid #bebcb7;
+}
+
+
+/********************customer-account page(sign in)********************/
+.customer-account-login .col-main
+{
+    padding-top: 20px;
+}
+.customer-account-login .col2-set .col-1,
+.vendor-index-index .col2-set .col-1
+{
+    width:48.5%;
+}
+.customer-account-login .page-title,
+.vendor-index-index .page-title
+{
+    border-bottom: medium none;
+    font-family: tahoma;
+}
+.customer-account-login .page-title h1,
+.vendor-index-index .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;
+}
+.customer-account-login .account-login .content h2,
+.vendor-index-index .account-login .content h2
+{
+    padding:10px 21px;
+    color:#6b1846;
+    font-family: Tahoma;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/login_background.png) repeat-x scroll 0 0 transparent;
+    -webkit-border-radius: 8px 0 0 0;
+    -moz-border-radius: 8px 0 0 0;
+    border-radius: 8px 0 0 0;
+    border-color: #e9e9e9;
+    text-transform: none;
+    font-size: 16px;
+}
+.customer-account-login .account-login .content p,
+.vendor-index-index .account-login .content p
+{
+    padding: 10px 21px 17px;
+    font-family: Tahoma;
+    font-weight: normal;
+    font-size: 12px;
+    color: #181818;
+    text-align: justify;
+}
+.vendor-index-index .account-login .content p
+{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.customer-account-login .account-login .new-users .buttons-set .button,
+.vendor-index-index .account-login .new-users .buttons-set .button
+{
+    float:left;
+}
+.customer-account-login .account-login .registered-users .content,
+.customer-account-login .account-login .registered-users .buttons-set,
+.vendor-index-index .account-login .registered-users .content,
+.vendor-index-index .account-login .registered-users .buttons-set
+{
+   background: #f9f9f9; 
+}
+.customer-account-login .account-login .registered-users .content ul,
+.vendor-index-index .account-login .registered-users .content ul
+{
+    padding-left:21px;
+    padding-top: 14px;
+}
+.customer-account-login .account-login .registered-users .content ul li
+{
+    padding-bottom: 19px;
+}
+.vendor-index-index .account-login .registered-users .content ul li
+{
+    padding-bottom: 5px;
+}
+.vendor-index-index .account-login .registered-users .buttons-set .button
+{
+    float:left;
+}
+.customer-account-login .account-login .registered-users .buttons-set .login_button
+{
+    overflow: hidden;
+    width: 141px;
+}
+.customer-account-login .account-login .registered-users .buttons-set .login_button .login_or
+{
+    color: #999999;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    padding-top: 10px;
+}
+.customer-account-login .account-login .registered-users .buttons-set .login_button .button
+{
+    float: left;
+}
+.customer-account-login .account-login .registered-users .buttons-set .f-left
+{
+    color: #999999;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 7px;
+}
+.customer-account-login .account-login .registered-users .buttons-set .f-left:hover
+{
+    color:#6b1846;
+}
+.customer-account-login .account-login .registered-users .buttons-set button.button span,
+.vendor-index-index .account-login .registered-users .buttons-set button.button span
+{
+    border: none;
+    background: none;
+    padding:0;
+}
+.customer-account-login .account-login .registered-users .buttons-set button.button span span,
+.vendor-index-index .account-login .registered-users .buttons-set button.button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/login_button.png) repeat-x scroll 0 0 transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 40px;
+    line-height:38px;
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:white;
+    width: 100px;
+}
+.customer-account-login .account-login .new-users .buttons-set button.button span,
+.vendor-index-index .account-login .new-users .buttons-set button.button span
+{
+    border: none;
+    background: none;
+    padding:0;
+}
+.customer-account-login .account-login .new-users .buttons-set button.button span span,
+.vendor-index-index .account-login .new-users .buttons-set button.button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/login_button.png) repeat-x scroll 0 0 transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    width:180px;
+    height: 40px;
+    line-height:38px;
+    font-size: 14px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:white;
+}
+.customer-account-login .account-login .buttons-set,
+.vendor-index-index .account-login .buttons-set
+{
+    background:white;
+    border:1px solid #e9e9e9;
+    -webkit-border-radius: 0 0 10px 0px;
+    -moz-border-radius: 0 0 10px 0px;
+    border-radius: 0 0 10px 0px;
+    border-top: none;
+    padding-bottom: 40px;
+    padding-left: 18px;
+    padding-top: 19px;
+}
+.customer-account-login .account-login .new-users .buttons-set
+{
+    height: 46px;
+}
+.customer-account-login .account-login .registered-users .buttons-set
+{
+    padding-bottom: 20px;
+}
+.customer-account-login .account-login .new-users .content
+{
+    
+}
+.customer-account-login .account-login .content
+{
+    background: white;
+    border:1px solid #e9e9e9;
+    border-bottom: none;
+    -webkit-border-radius: 10px 0 0 0;
+    -moz-border-radius: 10px 0 0 0;
+
+    border-radius: 10px 0 0 0;
+    height:210px;
+}
+.vendor-index-index .account-login
+{
+    margin-bottom: 25px;
+}
+.vendor-index-index .account-login .content
+{
+    background: white;
+    border:1px solid #e9e9e9;
+    border-bottom: none;
+    -webkit-border-radius: 10px 0 0 0;
+    -moz-border-radius: 10px 0 0 0;
+    border-radius: 10px 0 0 0;
+    height:220px;
+}
+.customer-account-login .account-login .registered-users .form-list input.input-text,
+.vendor-index-index .account-login .registered-users .form-list input.input-text
+{
+    border: 1px solid hsl(0, 0%, 87%);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 50px;
+    padding: 0 0 0 17px;
+    width: 413px;
+    color:#999999;
+    -webkit-text-shadow:1px 1px #fbfbfb;
+    -moz-text-shadow:1px 1px #fbfbfb;
+    text-shadow:1px 1px #fbfbfb;
+    font-size:13px;
+    font-family: Tahoma;
+    font-weight: normal;
+}
+.customer-account-login .account-login .registered-users .form-list input.input-text:focus,
+.vendor-index-index .account-login .registered-users .form-list input.input-text:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+.customer-account-login .aw-fb-login-button
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/facebook.png") no-repeat scroll 0 0 transparent;
+    bottom: 79px;
+    content: "";
+    height: 40px;
+    padding: 0;
+    position: absolute;
+    right: 87px;
+    width: 212px;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+/************************Customer Register & Vendor Register**************************/
+
+.customer-account-create .col-main
+{
+    padding-top: 20px;
+}
+.customer-account-create .account-create
+{
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.customer-account-create .account-create .page-title
+{
+    border-bottom: medium none;
+    font-family: tahoma;
+}
+.customer-account-create .account-create .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;
+    margin-left:20px;
+}
+.customer-account-create .account-create .fieldset
+{
+    background: none;
+    border:none;
+    -webkit-border-radius: 8px 0 8px 0;
+    -moz-border-radius: 8px 0 8px 0;
+    border-radius: 8px 0 8px 0;
+    width:650px;
+}
+.contacts-index-index .fieldset  /* also contacts */
+{
+    background: none;
+    border:none;
+    /*-webkit-border-radius: 8px 0 8px 0;
+    -moz-border-radius: 8px 0 8px 0;
+    border-radius: 8px 0 8px 0;*/
+    /*width:595px;*/
+    margin-bottom: 10px;
+    /*border-right: 1px solid #e1e1e1;*/
+    padding-right: 0;
+}
+.customer-account-create .account-create .fieldset
+{
+    margin-bottom: 0;
+}
+.customer-account-create .account-create .buttons-set p.required
+{
+    margin-bottom:2px;
+}
+.customer-account-create .account-create .fieldset .form-list input.input-text
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png) repeat-x scroll 0 0 transparent;
+    width: 290px;
+    height: 35px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    padding-left: 10px;
+}
+.customer-account-create .account-create .fieldset .form-list .field
+{
+    width:310px;
+}
+.customer-account-create .account-create .fieldset .form-list li.wide input.input-text
+{
+    width: 602px ;
+}
+.customer-account-create .account-create .fieldset .form-list .regions
+{
+    height: 36px !important;
+    margin-top: -33px;
+    width: 294px !important;
+    border-top: 1px solid #f7f7f7 !important;
+}
+.customer-account-create .account-create .fieldset .form-list input.input-text:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+.customer-account-create .account-create .fieldset .form-list #telInput
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png) repeat-x scroll 0 0 transparent;
+    width: 290px !important;
+    height: 35px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1 !important;
+}
+.customer-account-create .account-create .fieldset .form-list #telInput:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+.customer-account-create .account-create .fieldset .form-list select
+{
+    /*background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png) repeat-x scroll 0 0 transparent;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;*/
+    opacity:0;
+    margin-top: -38px;
+    width:301px;
+    height: 40px;
+}
+.customer-account-create .account-create .fieldset .form-list #region_id
+{
+    margin-top: -35px;
+}
+.customer-account-create .account-create .fieldset .legend
+{
+    background: none;
+    border:none;
+    color:#3a3a3a;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.contacts-index-index .fieldset .legend
+{
+    background: none;
+    border:none;
+    color:#3a3a3a;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    margin-top: -38px;
+}
+.customer-account-create .account-create .buttons-set
+{
+    border-top: none;
+    margin-right: 18px;
+    margin-top: 0;
+    width:636px;
+    padding: 0;
+    height: 52px;
+    margin-bottom:20px;
+}
+.contacts-index-index .buttons-set
+{
+    border-top: none;
+    /*margin-right: 18px;*/
+    margin-top: 0;
+    width:576px;
+    padding: 0;
+    height: 52px;
+    margin-bottom:20px;
+}
+.customer-account-create .account-create .buttons-set button.button span
+{
+    border: none;
+    background: none;
+    padding:0;
+}
+.customer-account-create .account-create .buttons-set button.button span span
+{
+    display: block;
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png) repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 30px;
+    line-height:30px;
+    width: 80px;
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+}
+.customer-account-create .buttons-set .back-link 
+{
+    display:none;
+}
+/**************************contact us****************************/
+.contacts-index-index .contact_us
+{
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px 10px 10px;
+    overflow: hidden;
+}
+.contacts-index-index .contact_us .contact_form
+{
+    width:612px;
+    border-right: 1px solid #e1e1e1;
+    float: left;
+}
+.contacts-index-index .contact_us .contact_Description
+{
+    overflow: hidden;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.contacts-index-index .contact_us .contact_Description h2
+{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Tahoma;
+    color: #282828;
+    text-align: justify;
+    margin-bottom: 24px;
+    margin-top: 6px;
+}
+.contacts-index-index .contact_us .contact_Description p
+{
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+.contacts-index-index .contact_us .contact_Description p img
+{
+    margin-right: 9px;
+}
+.contacts-index-index .page-title
+{
+    border-bottom: medium none;
+    font-family: tahoma;
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+.contacts-index-index .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;
+}
+.contacts-index-index .fieldset .form-list input.input-text
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png) repeat-x scroll 0 0 transparent;
+    width: 541px;
+    height: 35px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    padding-left: 10px;
+}
+.contacts-index-index .fieldset .form-list input.input-text:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+.contacts-index-index .buttons-set button.button span
+{
+    border: none;
+    background: none;
+    padding: 0;
+}
+.contacts-index-index .buttons-set button.button span span
+{
+    display: block;
+    border: none;
+    height: 30px;
+    line-height:31px;
+    /*width: 75px;*/
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png") repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+    padding:0 10px;
+}
+.contacts-index-index .fieldset .form-list li.wide textarea
+{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 542px;
+}
+.contacts-index-index .fieldset .form-list li.wide textarea:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+/***********catalogsearch result***************/
+.catalogsearch-advanced-result .advanced-search-summary
+{
+    background: #f7f7f7 no-repeat;
+    border: 1px solid #e5e5e5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.catalogsearch-advanced-result .advanced-search-summary p
+{
+    margin-left:15px;
+}
+.catalogsearch-advanced-result .page-title 
+{
+    border-bottom: none;
+}
+.catalogsearch-advanced-result .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;  
+}
+.catalogsearch-advanced-result .toolbar
+{
+    margin-bottom:5px;
+}
+.catalog-product-view .banner 
+{
+    display: none;
+}
+
+
+/*************category page slider n banner***********/
+.category_slider
+{
+    width:510px;
+    height:208px;
+    border-radius:4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    float:left;
+    
+}
+.category_banner
+{
+    width:238px;
+    height:207px;
+    border-radius:4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    float:right;
+    margin-bottom:10px;
+}
+
+
+/**************product detail banner***********/
+
+/*.catalog-product-view .header_bottom, .review-product-list .header_bottom
+{
+    margin-bottom: 5px;
+}*/
+.catalog-product-view .product_detail_banner p, .review-product-list .product_detail_banner p
+{
+    margin-bottom:0px;
+}
+.catalog-product-view .nav-container, .review-product-list .nav-container
+{
+    /*margin-top:-58px;*/
+}
+.catalog-product-view .product_detail_banner
+{
+    z-index: 10;
+    padding-top: 5px;
+}
+
+/**************shopping cart banner***********/
+
+.checkout-cart-index .header_bottom
+{
+    margin-bottom: 5px;
+}
+.checkout-cart-index .product_detail_banner p
+{
+    margin-bottom:0px;
+}
+.checkout-cart-index .nav-container
+{
+    margin-top:-9px;
+}
+
+/**************checkout banner***********/
+
+.checkout-onepage-index .header_bottom
+{
+    margin-bottom: 5px;
+}
+.checkout-onepage-index .product_detail_banner p
+{
+    margin-bottom:0px;
+}
+
+/*****list page banner*****/
+.catalog-category-view .breadcrumbs
+{
+    margin-top: 20px;
+}
+.catalog-category-view .header_banner
+{
+    margin-bottom:7px;
+}
+
+/*********** product reviews **************/
+
+.review-product-list .product-shop .price-box-bundle, .review-product-list .product-shop > .price-box, .review-product-list .revies_tags
+{
+    display: none;
+}
+
+.review-product-list .product-shop .product_qty
+{
+    clear: both;
+}
+
+/********sitemap-banner********/
+.page-sitemap .header_banner
+{
+    float: none;
+    margin-bottom:0px;
+}
+
+/*****************price**************/
+
+.price-box .price-from .price
+{
+    color: #6e1550;
+}
+.price-box .price-to .price
+{
+    color: #6e1550;
+}
+.price-box .minimal-price .price
+{
+    color:#6E1550;
+}
+
+/**************forgot password page******************/
+
+.customer-account-forgotpassword .col-main
+{
+    padding-top: 20px;
+}
+.customer-account-forgotpassword .forgot_password
+{
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px 10px 10px; 
+}
+.customer-account-forgotpassword .page-title
+{
+    border-bottom: medium none;
+    font-family: tahoma;
+    margin-left:20px;
+}
+.customer-account-forgotpassword .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;
+}
+.customer-account-forgotpassword .fieldset
+{
+    background: white;
+    border:none;
+    margin-bottom: 0;
+}
+.customer-account-forgotpassword .fieldset .form-list input.input-text
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #E1E1E1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    height: 35px;
+    padding-left: 10px;
+    width: 290px;
+}
+.customer-account-forgotpassword .fieldset .form-list input.input-text:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+.customer-account-forgotpassword .fieldset .legend
+{
+    background: none;
+    border:none;
+    color:#3A3A3A;
+    font-family: Tahoma;
+}
+.customer-account-forgotpassword .fieldset p
+{
+    font-family: Tahoma;
+    color: #282828;
+}
+.customer-account-forgotpassword .fieldset .form-list li.wide textarea
+{
+    background: #fbfbfb;
+}
+.customer-account-forgotpassword .buttons-set
+{
+    border-top: none;
+    margin: 0 0 20px;
+    width: 326px;
+}
+.customer-account-forgotpassword .buttons-set .back-link
+{
+     margin-left: 24px;
+}
+.customer-account-forgotpassword .buttons-set .back-link small
+{
+    display: block;
+    float: left;
+    margin-top: -2px;
+    margin-right: 2px;
+}
+.customer-account-forgotpassword .buttons-set .back-link a
+{
+    color: #6B1846;
+    text-decoration: none;
+}
+.customer-account-forgotpassword .buttons-set .back-link a:hover
+{
+    color: #282828;
+}
+.customer-account-forgotpassword .buttons-set .button span
+{
+    padding: 0;
+}
+.customer-account-forgotpassword .buttons-set .button span span
+{
+    font-size: 13px;
+    padding: 0 18px;
+}
+/********Popular terms***********/
+
+.catalogsearch-term-popular .col-main
+{
+    padding-top: 20px;
+}
+.catalogsearch-term-popular .page-title
+{
+    border-bottom: medium none;
+    font-family: tahoma;
+    margin-left:20px;
+}
+.catalogsearch-term-popular .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;
+}
+.catalogsearch-term-popular .tags-list
+{
+   
+    background: #fbfbfb;
+    border:1px solid #d3d2d2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 28px 20px; 
+}
+
+
+/**************Catalog Advanced Search******************/
+
+.catalogsearch-advanced-index .page-title
+{
+    border-bottom: medium none;
+    font-family: tahoma;
+    margin-left:20px;
+}
+.catalogsearch-advanced-index .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;
+}
+.catalogsearch-advanced-index .fieldset
+{
+    background: #fbfbfb;
+    border:1px solid #d3d2d2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 28px 20px 0;
+    width:660px;
+}
+.catalogsearch-advanced-index .fieldset .legend
+{
+    background: #e2e2e2;
+    border:1px solid #d3d2d2;
+    color:#3a3a3a;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    line-height: inherit;
+}
+.catalogsearch-advanced-index .buttons-set
+{
+    border-top:none;
+    margin-right: 18px;
+    margin-top: 0;
+}
+.catalogsearch-advanced-index .fieldset .form-list input.input-text
+{
+    background: #fbfbfb;
+}
+.catalogsearch-advanced-index .breadcrumbs
+{
+    margin-left:19px;
+}
+.catalogsearch-advanced-index .form-list input.input-text
+{
+    width:382px;
+}
+.catalogsearch-advanced-index .form-list .input-range input.input-text
+{
+    width:180px;
+}
+.catalogsearch-advanced-index .form-list select
+{
+    width:389px;
+}
+
+
+/***********etore_slider**************/
+.estore_slider 
+{
+    width:755px;
+    font-size: 18px;
+    font-family: Arial_Rounded_MT_Bold;
+    font-weight:normal;
+    color:#282828;
+    margin-top:14px;
+}
+
+/****************account page*************/
+
+/*.customer-account-index .page-title,
+.customer-account-edit .page-title,
+.customer-address-index .page-title,
+.customer-address-form .page-title,
+.sales-order-history .page-title,
+.sales-billing-agreement-index .page-title*/
+.my-account .page-title
+{
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 13px;
+    margin-top: 22px;
+    padding-bottom: 10px;
+}
+
+/*.customer-account-index .block-account .block-title,
+.customer-account-edit .block-account .block-title,
+.customer-address-index .block-account .block-title,
+.customer-address-form .block-account .block-title,
+.sales-order-history .block-account .block-title,
+.sales-billing-agreement-index .block-account .block-title
+{
+    background: #6b1846;
+}*/
+.block-account .block-content li.current
+{
+    color: #282828;
+    font-weight: bold;
+    background: #f8f8f6;
+}
+/*.customer-account-index .block-account .block-content li.current,
+.customer-account-edit .block-account .block-content li.current,
+.customer-address-index .block-account .block-content li.current,
+.customer-address-form .block-account .block-content li.current,
+.sales-order-history .block-account .block-content li.current,
+.sales-billing-agreement-index .block-account .block-content li.current
+{
+    color: #6b1846;
+}*/
+.block-account .block-content li a:hover
+{
+    color: #6b1846;
+}
+/*.customer-account-index .block-account .block-content li a:hover,
+.customer-account-edit .block-account .block-content li a:hover,
+.customer-address-index .block-account .block-content li a:hover,
+.customer-address-form .block-account .block-content li a:hover,
+.sales-order-history .block-account .block-content li a:hover,
+.sales-billing-agreement-index .block-account .block-content li a:hover
+{
+    color: #6b1846;
+}*/
+.customer-account-index .box-account
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.customer-account-index .box-account .box-head h2 
+{
+    padding-left:0px;
+    color: #651149;
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+}
+.block-account
+{
+    margin-top:10px;
+    font-family: tahoma;
+}
+
+.block-account .block-title
+{
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.block-account .block-content
+{
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+
+
+/*.customer-account-index .block-account,
+.customer-account-edit .block-account,
+.customer-address-index .block-account,
+.customer-address-form .block-account,
+.sales-order-history .block-account,
+.sales-billing-agreement-index .block-account
+{
+    margin-top:10px;
+}*/
+.customer-account-index .link-reorder,
+.sales-order-history .link-reorder 
+{
+    color: #6b1846;
+}
+.customer-account-edit .fieldset,
+.customer-address-form .fieldset
+{
+    background: none;
+    border:1px solid #d3d2d2;
+    -webkit-border-radius: 8px 0 8px 0;
+    -moz-border-radius: 8px 0 8px 0;
+    border-radius: 8px 0 8px 0;
+    margin-bottom: 0;
+}
+.customer-account-edit .fieldset .form-list input.input-text,
+.customer-address-form .fieldset .form-list input.input-text
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png) repeat-x scroll 0 0 transparent;
+    width: 250px;
+    height: 35px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    padding-left: 10px;
+}
+.customer-account-edit .fieldset .form-list input.input-text:focus,
+.customer-address-form .fieldset .form-list input.input-text:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+.customer-account-edit .fieldset .legend,
+.customer-address-form .fieldset .legend
+{   
+    background: none;
+    border: none;
+    color: #651149;
+    float: none;
+    font-family: tahoma;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.customer-account-edit .my-account , 
+.customer-account-index .my-account,
+.customer-address-index .my-account,
+.customer-address-form .my-account,
+.sales-order-history .my-account,
+.sales-billing-agreement-index .my-account
+{
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+.customer-address-form .buttons-set
+{
+    border-top:none;
+    margin-top: 0;
+}
+.customer-account-edit .buttons-set
+{
+    border-top:none;
+    margin-top: 0;
+    width: 540px;
+}
+.customer-account-edit .buttons-set .button span
+{
+    padding: 0;
+}
+.customer-account-edit .buttons-set .button span span
+{
+    padding: 0 18px;
+    font-size: 13px;
+}
+.customer-address-form .buttons-set
+{
+    width: 600px;
+}
+.customer-address-form .buttons-set p.required
+{
+    width: 588px;
+}
+/*.customer-account-edit .buttons-set .back-link,
+.customer-address-index .buttons-set .back-link,
+.customer-address-form .buttons-set .back-link,
+.sales-order-history .buttons-set .back-link*/
+.my-account .back-link
+{
+    display:none;
+}
+/*.customer-account-edit .my-account .page-title h1 , 
+.customer-account-index .my-account .page-title h1,
+.customer-address-index .my-account .page-title h1,
+.customer-address-form .my-account .page-title h1,
+.sales-order-history .my-account .page-title h1*/
+.my-account .page-title h1
+{
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: bold;
+    color: #282828;
+}
+.customer-address-index .addresses-list h2
+{
+  color: #651149; 
+  font-family: tahoma;
+  font-size: 14px;
+  font-weight: bold; 
+  text-transform: none;
+}
+ /*customer-account-edit*/
+
+
+/************vendor***************/
+.vendor-category-products 
+{
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+.vendor-category-products .products-grid li.item 
+{
+   border: 1px solid #d7d7d7;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   height: 123px;
+   margin-right: 12px;
+   width: 134px;
+}
+/*.col2-left-layout .vendor-category-products .products-grid,.col2-right-layout .vendor-category-products .products-grid
+{
+    width:755px;
+    margin-top:12px;
+}*/
+.estore_div .vendor-category-products .products-grid, .vendor-category-products .products-grid
+{
+    width:755px;
+    margin-top:12px;
+}
+.estore_div .vendor-category-products .products-grid
+{
+    width: 568px !important;
+}
+.vendorlist-index-index .pager
+{
+    border-top:none;
+}
+.vendorlist-index-index .sorter
+{
+    border-top:none;
+}
+.vendorlist-index-index h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+    color: #651149;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.vendor-category-products .products-grid .product-name a
+{
+    font-family: tahoma;
+    font-size: 15px;
+    text-decoration: none;
+    color:#282828;
+}
+.vendor-category-products .products-grid .product-name
+{
+    text-align: center;
+    margin: 5px 0;
+}
+.vendor-category-products .products-grid .vendor_image
+{
+    text-align: center;
+}
+.vendorlist-all-index .page-title 
+{
+    float: left;
+    width: auto;
+    border-bottom:none;
+}
+.vendorlist-all-index .toolbar 
+{
+    margin-bottom: 8px;
+}
+.vendorlist-all-index .toolbar .pager 
+{
+    margin-top:4px;
+}
+.vendorlist-all-index .sorter .sort-by
+{
+    margin-top:2px;
+}
+.vendorlist-all-index .sorter .sorter_wrap 
+{
+    margin-top:1px;
+}
+
+.vendorlist-all-index .vendor_logo
+{
+    border-right: 1px solid #d7d7d7;
+    float: left;
+    height: 175px;
+    margin-left: 5px;
+    margin-right:10px;
+    width: 193px;
+    text-align: center;
+}
+.vendorlist-all-index .vendor_logo li 
+{
+    height: 175px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 193px;
+}
+.vendorlist-all-index .vendor-form-list
+{
+    float: left;
+    text-align: justify;
+    width: 546px;
+    height: 175px;
+}
+.vendorlist-all-index .fieldset
+{
+    margin-top: 10px;
+    overflow: hidden;
+    background: none;
+    padding: 0;
+    border: none;
+    margin-top:14px;
+    margin-bottom: 23px;
+    height: 175px;
+}
+.vendorlist-all-index #vendor-name 
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 18px;
+    font-weight: normal;
+    color:#6b1846;
+}
+.vendorlist-all-index #vendor-des
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    color:#363636;
+}
+.vendorlist-all-index #vendor-des a 
+{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color:#6b1846;
+    text-decoration: none;
+}
+.vendorlist-all-index .page-title h1 
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 18px;
+    font-weight: normal;
+    color:#282828;
+}
+.vendorlist-all-index .vendor_banner 
+{
+    margin-top:12px;
+}
+.vendorlist-all-index .vendor_breadcrumbs
+{
+    margin-top:12px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.productlist_breadcrumbs
+{
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.productlist_breadcrumbs > .breadcrumbs
+{
+    margin: 0 0 15px;
+}
+
+.catalog-category-view .col-main > .breadcrumbs
+{
+    display: none;
+}
+
+.vendorlist-all-index .vendor_breadcrumbs ul li
+{
+    float:left;
+    margin-right: 4px;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    color:#282828;
+}
+.vendorlist-all-index .vendor_breadcrumbs ul li a
+{
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: normal;
+    color:#282828;
+    text-decoration: none;
+}
+.vendorlist-all-index .single_vendor_image
+{
+    max-height: 175px;
+    max-width: 175px;
+}
+.referafriend-index-stats .page-head
+{
+    border-bottom: 1px solid #d7d7d7;
+    margin-bottom: 13px;
+    margin-top: 22px;
+    padding-bottom: 10px;
+}
+.referafriend-index-stats .page-head h3
+{
+    font-family: tahoma;
+    font-size: 15px;
+    font-weight: bold;
+}
+.referafriend-index-stats .data-table thead th 
+{
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+}
+.referafriend-index-stats .data-table tbody td
+{
+    padding: 5px;
+    text-align: center !important;
+}
+.referafriend-index-stats .raf-right 
+{
+    float: none;
+}
+.referafriend-index-stats .buttons-set
+{
+    display: none;
+}
+.customer-account-index .data-table thead th 
+{
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+}
+.customer-account-index .data-table tbody td
+{
+    padding: 5px;
+    text-align: center !important;
+}
+
+.sales-order-history .data-table thead th
+{
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+}
+.sales-order-history .data-table tbody td
+{
+    padding: 5px;
+    text-align: center !important;
+}
+.sales-order-history .my-account .pager
+{
+    border-top: none;
+}
+.wishlist-index-index .my-wishlist .data-table thead th
+{
+    border-bottom: 1px solid #d7d7d7;
+    text-align: center;
+    background: #f0f0f0;
+}
+.wishlist-index-index .my-wishlist .data-table tbody td
+{
+    padding: 10px;
+    text-align: center !important;
+    vertical-align: middle;
+    border-bottom: none;
+}
+.wishlist-index-index .my-wishlist .data-table .btn-remove2 
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/cart_trash.png") no-repeat scroll 0 0 transparent;
+    height: 19px;
+    width: 18px;
+}
+.wishlist-index-index .my-wishlist input.input-text
+{
+  margin: 5px;   
+  text-align: center;
+}
+.wishlist-index-index .my-wishlist .btn-cart
+{
+    float: right;
+}
+.wishlist-index-index .my-wishlist .buttons-set .btn-add span span,
+.wishlist-index-index .my-wishlist .buttons-set .btn-share span span
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png") repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+}
+.wishlist-index-index .my-wishlist .buttons-set .btn-add span,
+.wishlist-index-index .my-wishlist .buttons-set .btn-share span
+{
+   background: none;
+   border: none;
+}
+.wishlist-index-index .buttons-set,
+.sales-order-history .buttons-set
+{
+    border-top: none;
+}
+.customer-address-index .col2-set .addresses-primary
+{
+    width: 38%;
+    margin-left: 10px;
+}
+.customer-address-index .col2-set .addresses-additional 
+{
+    width: 54%;
+}
+.tag-customer-index .tags-list
+{
+    background: none;
+    border: 1px solid #D7D7D7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    font-size: 18px;
+    padding: 7px 10px 10px;
+}
+.wishlist-index-index .special-price .price
+{
+    color:#282828;
+}
+.wishlist-index-index .discount
+{
+    color: #6B1846;
+    margin-right: 10px;
+}
+
+/*****************  Category Banners in product list page ********************/
+
+.catalog-category-view .col-main .category_banners, .catalog-category-view .col-main .block-left,
+.catalog-category-view .col-left .category_product_list, .catalog-category-view .col-left .category-description,
+.catalog-category-view .col-left .category-title
+{
+    display: none;
+}
+
+.catalog-category-view .col-left .block-banner > div, .catalog-category-view .col-left .block-banner > .category-image
+{
+    display: none;
+}
+
+.catalog-category-view .col-left .block-banner .category_banners, .catalog-category-view .col-left .block-banner .block-left,
+.catalog-category-view .col-left .block-banner .block-left *
+{
+    display: block !important;
+}
+
+
+
+/****************************newsletter********************************/
+
+.footer-subscribe
+{
+    /*width:100%;
+    height:52px;
+    position: fixed;
+    overflow: hidden;
+    bottom:0;
+    float: left;*/
+    z-index: 200;
+}
+.footer-subscribe .subscribe-content
+{
+   padding:13px 0; 
+   position: relative;
+}
+.footer-subscribe .footer_newsletter2
+{
+    width:680px;
+    /*height:52px;*/
+    margin: auto;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/newsletter_background.png") repeat scroll 0 0 transparent;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    bottom:0;
+    left: 292px;
+}
+.footer-subscribe .block-title 
+{
+    border: none;
+}
+.footer-subscribe .actions
+{
+     overflow: hidden;
+}
+.footer-subscribe .actions button.button
+{
+    margin-left: -7px;
+    width:73px;
+    height: 26px;
+}
+.footer-subscribe .actions button.button span
+{
+    padding:0;
+}
+.footer-subscribe .actions button.button span span
+{
+    width:73px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Tahoma;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/newsletter_btn.png") repeat-x scroll 0 0 transparent;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+.footer-subscribe .input-box
+{
+    float: left;
+}
+.footer-subscribe .input-box input.input-text
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/newletter_search_box.png") repeat-x scroll 0 0 transparent;
+    width:243px;
+    height:26px;
+    line-height: 26px;
+    padding: 0 0 0 6px;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: #7a7a7a;
+    border: none;
+}
+.footer-subscribe .newsletter_close, #slideup_fblike .fbLike_close
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/newsletter_close.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top:3px;
+    right:3px;
+    cursor: pointer;
+}
+.footer-subscribe .form-subscribe-header
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-weight: normal;
+    font-size: 15px;
+    color: white;
+    float: left;
+    margin-right: 22px;
+    margin-left:34px;
+}
+.footer-subscribe .input_button
+{
+    overflow: hidden;
+    width:316px;
+    /*height:27px;
+    line-height: 26px;*/
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+ /****** facenook like footer ***********/
+
+.footer-container .fbintegrator-likebutton .fb_iframe_widget iframe
+{
+    position: static !important;
+    height: 50px !important;
+}
+
+#slideup_fblike
+{
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    background: #E7ECF2;
+    border: 2px solid #CDDBE4;
+    border-bottom: none !important;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    z-index: 100;
+}
+
+#slideup_fblike .fbintegrator-likebutton
+{
+    padding: 10px 25px 0 10px;
+    float: left;
+    height: 40px;
+    /*width: 255px;*/
+}
+
+#slideup_fblike .slideup_fblike2
+{
+    position: relative;
+    overflow: hidden;
+}
+#slideup_fblike .fb_edge_widget_with_comment
+{
+    float: left;
+}
+.vendor-category-products .estore_hover_ul
+{
+    width: 94px;
+    margin-right: 10px;
+    clear: none;
+    float: left;
+}
+
+.showhome_hover
+{
+    z-index: 10;
+}
+
+.showhome_hover:hover
+{
+    /*border:4px solid #f3f3f3;*/
+    -webkit-box-shadow: 0 0 0 4px #F3F3F3, 0 0 3px 4px #A5A5A5;
+    -moz-box-shadow: 0 0 0 4px #F3F3F3, 0 0 3px 4px #A5A5A5;
+    box-shadow: 0 0 0 4px #F3F3F3, 0 0 3px 4px #A5A5A5;
+    border-radius: 9px 0 9px 0;
+    -webkit-border-radius: 9px 0 9px 0;
+    -moz-border-radius: 9px 0 9px 0;
+    width:175.5px;
+    height: 247px;
+    background:#FFFFFF;
+    z-index: 999;
+    /*left:-4px;
+    top:-4px;*/
+    position: absolute;
+}
+
+.checkout_success
+{
+  border:1px solid #d7d7d7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  width: 97%;
+  padding-left:30px;
+}
+.checkout_success p
+{
+    font-family: Tahoma;
+}
+.checkout_success a
+{
+    color:#6B1846;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Tahoma;
+}
+.checkout_success .data-table
+{
+    width: 97%;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.checkout_success .data-table thead
+{
+    border-bottom: 1px solid #e9e9e9;
+}
+.checkout_success .data-table thead th
+{
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #e9e9e9;
+    font-family: Tahoma;
+    color: #353535 !important;
+}
+.checkout_success .data-table thead th.last
+{
+    border-right: none;
+}
+.checkout_success .data-table thead tr
+{
+    background: #f8f8f8;
+}
+.checkout_success .data-table tbody.odd tr,.checkout_success .data-table tbody.even tr
+{
+    background: none !important;
+}
+.checkout_success .buttons-set
+{
+    margin-top: 21px;
+    width: 97%;
+    margin-bottom: 20px;
+}
+.checkout_success .data-table tbody.odd tr.border td,
+.checkout_success .data-table tbody.even tr.border td
+{
+    padding: 10px;
+    border-bottom: 1px solid #ececec !important;
+    border-right: 1px solid #ececec;
+    text-align: left !important;
+    font-family: Tahoma;
+}
+.checkout_success .data-table tbody.odd tr.border td.last,
+.checkout_success .data-table tbody.even tr.border td.last
+{
+    border-right: none;
+}
+.checkout_success .data-table tfoot td
+{
+    padding: 1px 10px;
+    font-family: Tahoma;
+}
+.checkout_success .data-table tfoot strong
+{
+    font-size: 14px;
+}
+.checkout_success .data-table tfoot .subtotal
+{
+    
+}
+
+.review_form .data-table
+{
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-bottom: none;
+}
+.review_form .data-table thead th
+{
+    background: #f0f0f0;
+    border-right: 1px solid #BEBCB7;
+}
+.review_form .data-table thead th.last
+{
+    border-right: none;
+}
+.review_form .data-table tbody th,
+.review_form .data-table tbody td
+{
+    border-bottom: 1px solid #BEBCB7;
+    border-right: 1px solid #BEBCB7;
+}
+.review_form .data-table tbody td.last
+{
+    border-right: none;
+}
+.review_form #review-form .form-list input.input-text
+{
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png) repeat-x scroll 0 0 transparent;
+    width: 354px;
+    height: 35px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    padding-left: 10px;
+}
+.review_form #review-form .form-list textarea
+{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #e1e1e1;
+    padding-left: 10px;
+}
+.review_form #review-form .form-list input.input-text:focus,
+.review_form #review-form .form-list textarea:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+.review_form #review-form .form-list
+{
+    padding-left: 4px;
+}
+
+/*********************** my account ************************/
+.account_billing_country
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_select.png") no-repeat scroll 0 0 transparent;
+    height: 30px;
+    padding-top: 10px;
+    width:301px;
+}
+.account_billing_country #country
+{
+    height: 40px;
+    margin-top: -35px;
+    opacity: 0;
+    width: 300px;
+}
+.account_region
+{
+   background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_select.png) no-repeat scroll 0 0 transparent; 
+   height:30px;
+   width: 301px;
+   padding-top: 10px;
+}
+.account_region #region_id
+{
+    height: 40px;
+    margin-top: -35px;
+    opacity: 0;
+    width: 300px;
+}
+.account_region #region
+{
+    border-top: 1px solid #F7F7F7;
+    height: 33px;
+    margin-top: -37px;
+    width: 286px;
+}
+.my-account .fieldset
+{
+    background: none;
+    border: none;
+    padding-left:14px;
+}
+.my-account .fieldset .legend
+{
+    background: none;
+    border: none;
+    color: #651149
+}
+.review-customer-index .my-account .data-table
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #D7D7D7;
+}
+.review-customer-index .my-account .data-table tbody td
+{
+    border-bottom: none;
+}
+.review-customer-index .my-account .data-table tbody td .product-name
+{
+    text-align: center;
+}
+.review-customer-index .my-account .data-table tbody td .product-name a
+{
+    color: #6B1846;
+    font-weight: bold;
+    text-decoration: none;
+}
+.review-customer-index .my-account .data-table tbody td a.nobr
+{
+    color: #6B1846;
+    text-decoration: none;
+}
+.review-customer-index .my-account .pager
+{
+    border-top: none;
+}
+
+
+.wishlist-index-index .my-account .my-wishlist #wishlist-table
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #D7D7D7; 
+}
+.wishlist-index-index .my-account .my-wishlist #wishlist-table tbody tr td .product-name a
+{
+    color: #6B1846;
+    font-weight: bold;
+    text-decoration: none;
+}
+.wishlist-index-index .my-account .my-wishlist #wishlist-table tbody .cart-cell .price-box .old-price .price
+{
+    color: #8B8989;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.wishlist-index-index .my-account .my-wishlist textarea:focus,
+.wishlist-index-index .my-account .my-wishlist input.input-text:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+
+
+/***************** hover mini cart **********************/
+
+.header .mini_cart
+{
+    display: none;
+    position: absolute;
+    /* top: 76px; */
+    top: 49px;
+    right: 0;
+    background: #FFFFFF;
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 3px 3px 5px #595959, 0px 0px 0px #595959;
+    -webkit-box-shadow: 3px 3px 5px #595959, 0px 0px 0px #595959;
+    box-shadow: 3px 3px 5px #595959, 0px 0px 0px #595959;
+    margin: 0;
+    width: 237px;
+    z-index: 500;
+    font-family: tahoma;
+}
+
+.header .mini_cart .mini_cart_wrap2
+{
+    position: relative;
+    padding: 15px 13px 17px;
+    text-align: left;
+} 
+
+.header .mini_cart .mini_cart_wrap2:after, .header .mini_cart .mini_cart_wrap2:before 
+{
+    bottom: 100%; 
+    border: solid transparent; 
+    content: " "; 
+    height: 0;
+    width: 0; 
+    position: absolute; 
+    pointer-events: none; 
+}
+
+.header .mini_cart .mini_cart_wrap2:after 
+{
+    border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) #FFFFFF;
+    border-width: 4px;
+    left: 66%;
+}
+
+.header .mini_cart .mini_cart_wrap2:before 
+{
+    border-color: rgba(215, 215, 215, 0) rgba(215, 215, 215, 0) #d7d7d7;
+    border-width: 6px;
+    left: 65%;
+}
+
+.header .mini_cart .block-subtitle
+{
+    background: #FFFFFF;
+    height: 31px;
+    font-size: 12px;
+    color: #6b1846;
+    padding: 0;
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.header .mini_cart .block-content
+{
+    background: none;
+}
+
+.header .mini_cart .block-content > ol
+{
+    display: block;
+    margin: 0 0 1px;
+}
+
+.header .mini_cart .block-content li.item
+{
+    padding: 0;
+    background: #FFFFFF;
+    border-bottom: 1px solid #D7D7D7;
+    display: block;
+    padding: 8px 0;
+}
+
+.header .mini_cart .block-content .mini-products-list .product-image
+{
+    border: 1px solid #D7D7D7;
+}
+
+.header .mini_cart .block-content .product-name a
+{
+    color: #282828;
+    font-size: 11px;
+    text-decoration: none;
+    line-height: 18px;
+}
+
+.header .mini_cart .block-content .btn-remove
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/remove_prod_cart.png") no-repeat scroll 0 0 transparent;
+}
+
+.header .mini_cart .block-content .btn-edit
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/edit_prod_cart.png") no-repeat scroll 0 0 transparent;
+    width: 15px;
+    height: 15px;
+}
+
+.header .mini_cart .subtotal
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    background: none;
+    text-transform: uppercase;
+    height: 35px;
+    line-height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.header .mini_cart .actions
+{
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.header .mini_cart .actions button.button span
+{
+    padding: 0;
+}
+
+.header .mini_cart .actions button.button span span
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_mini_bk.png") repeat-x scroll 0 0 transparent;
+    padding: 0 19px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.header .mini_cart .mini_view_cart
+{
+    display: block;
+    width: 95px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; 
+    height:30px;
+    line-height:27px;
+    font-size: 12px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/view_cart_bk.png") repeat-x scroll 0 0 transparent;
+}
+
+/***************** hover mini cart **********************/
+
+
+
+
+/***************************about akhoni******************************/
+
+.about_akhoni h3
+{
+    color: #6B1846;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.about_akhoni p
+{
+    color: #282828;
+    font-family: tahoma;
+    font-size: 13px;
+    text-align: justify;
+}
+.about_akhoni div.col-1
+{
+    margin-bottom: 30px;
+}
+
+
+/***************************Terms of Use ******************************/
+.TermsOfUse h3
+{
+   color: #6B1846;
+   font-size: 18px; 
+   margin-bottom: 15px;
+}
+.TermsOfUse h2
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.TermsOfUse p
+{
+    color: #282828;
+    font-family: tahoma;
+    font-size: 13px;
+    text-align: justify;
+}
+.terms_n_condition
+{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.terms_n_condition ul
+{
+    padding-left: 40px;
+}
+.terms_n_condition ul li
+{
+    color: #282828;
+    font-family: tahoma;
+    font-size: 13px;
+    text-align: justify;
+}
+
+/**************************Privacy policy******************************/
+
+.privacy_policy
+{
+    margin-bottom: 30px;
+}
+.privacy_policy h3
+{
+   color: #6B1846;
+   font-size: 18px; 
+   margin-bottom: 15px;
+}
+.privacy_policy p
+{
+    color: #282828;
+    font-family: tahoma;
+    font-size: 13px;
+    text-align: justify;
+}
+.privacy_policy ul
+{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.privacy_policy ul li
+{
+    color: #282828;
+    font-family: tahoma;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.product-view .product-shop .product-options dd select
+{
+    top: -9999px;
+    position: absolute;
+}
+
+/******************************customer-account-resetpassword****************************/
+
+
+.customer-account-resetpassword .reset_password
+{
+    border: 1px solid #D7D7D7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; 
+    margin-bottom: 20px;
+    padding: 20px 10px 10px;
+}
+.customer-account-resetpassword .reset_password .page-title
+{
+    border-bottom: none;
+    margin-left: 20px;
+}
+.customer-account-resetpassword .reset_password .page-title h1
+{
+    color: #651149;
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 22px;
+    font-weight: normal;
+}
+.customer-account-resetpassword .reset_password .fieldset
+{
+    border: none;
+    background: none;
+    margin-top: 0;
+    padding-top: 0;
+}
+.customer-account-resetpassword .reset_password .buttons-set
+{
+    border-top: none;
+    margin-top: 0;
+    width: 657px;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+.customer-account-resetpassword .reset_password .buttons-set .button span
+{
+    padding: 0;
+}
+.customer-account-resetpassword .reset_password .buttons-set .button span span
+{
+    font-size: 12px;
+    padding: 0 18px;
+}
+.customer-account-resetpassword .reset_password .fieldset .form-list .field
+{
+    width: auto;
+    margin-right: 25px;
+}
+.customer-account-resetpassword .reset_password .fieldset .form-list .input-box
+{
+    width: auto;
+}
+.customer-account-resetpassword .reset_password .fieldset .form-list input.input-text
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/checkout_textfield.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #E1E1E1;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    height: 35px;
+    padding-left: 10px;
+    width: 290px;
+}
+.customer-account-resetpassword .reset_password .fieldset .form-list input.input-text:focus
+{
+    -webkit-box-shadow: 0 0 4px 0 #f16fc6;
+    -moz-box-shadow: 0 0 4px 0 #f16fc6;
+    box-shadow: 0 0 4px 0 #f16fc6;
+    border-color: #f16fc6 !important;
+}
+
+
+/************************* My account dashboard ***************************/
+
+.customer-account-index .my-account .dashboard .box-info address
+{
+    text-align: left;
+    float: none;
+}
+.customer-account-index .my-account .dashboard .box-info h4
+{
+    text-align: left;
+}
+.customer-account-index .my-account .dashboard .box-info a
+{
+    color: #6B1846;
+}
+.customer-account-index .my-account .dashboard .box-info .col2-set .col-1
+{
+    width: 49%;
+}
+.customer-account-index .my-account .dashboard .box-info .box-title
+{
+    border-bottom: 1px solid #D9DDE3 ;
+}
+.customer-account-index .my-account .dashboard .col2-set
+{
+    margin-bottom: 20px;
+}
+
+/****************************404 Not Found*****************************/
+
+.not_found_page
+{
+    border:1px solid #d7d7d7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.not_found_page .page-head-alt
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+.not_found_page .content
+{
+    font-family: Arial_Rounded_MT_Bold;
+    color: #151414;
+    font-size: 23px;
+    padding-left: 133px;
+    margin-bottom: 55px;
+}
+.not_found_page .content a
+{
+    font-family: Arial_Rounded_MT_Bold;
+    color: #151414;
+    font-size: 23px;
+    /*text-decoration: none;*/
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/404-Page_home.png") no-repeat scroll right 4px transparent;
+    padding-right: 20px;
+}
+.not_found_page .content a:hover
+{
+   background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/404-Page_home.png") no-repeat scroll right -19px transparent;
+   color: #6b1846;
+   text-decoration: underline;
+}
+.not_found_page .content input.input-text
+{
+    border:1px solid #d7d7d7;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+    height: 34px;
+    width: 287px;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+.not_found_page .content .button
+{
+    margin-left: -6px;
+    margin-top: 2px;
+}
+.not_found_page .content .button span
+{
+    padding: 0;
+}
+.not_found_page .content .button span span
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/404-page_search.png") no-repeat scroll 50% 50% transparent; 
+    border: 1px solid #d7d7d7;
+    border-left: none;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+    height: 34px;
+    padding: 2px;
+    width: 46px;
+}
+
+
+.catalogsearch-result-index .sorter .sort-by
+{
+    margin-bottom: 8px;
+}
+
+
+#supercheckout_payment_methods_available #supercheckout_payment_method_load .pmethods #Sslcommerz
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/cc.png") no-repeat scroll 0 0 transparent;
+    height: 33px;
+    text-indent: -999999px;
+} 
+#supercheckout_payment_methods_available #supercheckout_payment_method_load .pmethods #supercheckout_payment_method_Sslcommerz
+{
+    margin-top: 10px;
+}
+
+
+.cms-press .main,
+.cms-career .main
+{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.cms-press .col-main,
+.cms-career .col-main
+{
+    border: 1px solid #d7d7d7;
+    -webkit-border-radius: 4px
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 20px 26px;
+    /*margin-top:20px;*/
+}
+.cms-press .col-main .breadcrumbs,
+.cms-career .col-main .breadcrumbs
+{
+    display: none;
+}
+.cms-press .page-title,
+.cms-career .page-title
+{
+    border-bottom: none;
+}
+.cms-press .page-title h1,
+.cms-career .page-title h1
+{
+    font-family: Arial_Rounded_MT_Bold;
+    font-size: 24px;
+    color: #6B1846;
+}
+.cms-career .career p
+{
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #282828;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.cms-career .career h2
+{
+    font-size: 16px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #282828;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+
+
+.cms-career .career div#test-accordion
+{
+    /*margin: 10px;
+    border: 1px solid #aaa;*/
+}
+
+.cms-career .career div.accordion 
+{
+	position: relative; /* required for bounding */
+}
+
+.cms-career .career div.accordion-toggle
+{
+    position: relative; /* required for effect */
+    z-index: 10;		/* required for effect */
+	/*background: #eee;*/   
+    cursor: pointer;
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #6B1846;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 21px;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/career_toggle.png") no-repeat scroll left -14px transparent;
+}
+
+.cms-career .career div.accordion-toggle-active
+{
+	font-size: 13px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #6B1846;
+    border-bottom: none;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/career_toggle.png") no-repeat scroll left 14px transparent;
+}
+
+.cms-career .career div.accordion-content
+{
+    overflow: hidden;	/* required for effect */
+    /*background: #aaa;*/
+    border-bottom: 1px solid #e1e1e1;
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: normal;
+    color: #282828;
+    padding-left: 21px;
+}
+.cms-career .career div.accordion-content .content_title
+{
+    font-size: 13px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color: #282828;
+}
+.cms-career .career div.accordion-content p
+{
+   font-size: 14px;
+   font-family: Tahoma;
+   font-weight: normal;
+   color: #282828; 
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+
+
+/* Custom Tab [on Product Description Page]
+=====================================================================*/
+.product-collateral { width:730/*657*/px; margin:auto;/* border-top:1px solid #efefef;*/ /*margin-top:33px; padding-top:32px;*/}
+.product-collateral .std{/*padding-top:13px;*/ }
+.product-collateral #product-attribute-specs-table{margin-top:20px;}
+.product-collateral #product-attribute-specs-table th{color:#414141;}
+#product-tabs{ /*margin-bottom:10px;*/}
+#product-tabs .tabs{width:700px; height:34px;/**/ clear:both;}
+#product-tabs .tabs h3{ font-size:12px; color:#454545; font-weight:bold; font-family:Tahoma; line-height:12px;}
+#product-tabs .tabs .corner-left-top{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_button_corner_left_top.gif) left top no-repeat; display:block; width:147px; float:left; font-weight:bold; color:#000; text-decoration:none; cursor:pointer; margin-right:4px;}
+#product-tabs .tabs .corner-right-top{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_button_corner_right_top.gif) right top no-repeat; display:block;}
+#product-tabs .tabs .border-top{background:#EDEDED; display:block; margin:0 5px; padding:12px 0 8px 0;/**/ text-align:center; height:14px; overflow:hidden;}
+#product-tabs .tabs .active-tab{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_button_corner_left_top_active.gif) left top no-repeat #FFFFFF; margin-bottom:-1px; position:relative; height:35px;/**/}
+#product-tabs .tabs .active-tab .corner-right-top{ background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_button_corner_right_top_active.gif) right top no-repeat;}
+#product-tabs .tabs .active-tab .border-top{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_border.gif) left top repeat-x #FFFFFF;}
+#product-tabs .tabs-content{ width:733px;}
+#product-tabs .tabs-content .tabs-content-top{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_corner_left_top.gif) left top no-repeat;}
+#product-tabs .tabs-content .tabs-content-top div{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_corner_right_top.gif) right top no-repeat;}
+#product-tabs .tabs-content .tabs-content-top div div{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_border.gif) left top repeat-x #ffffff; margin:0 5px; height:5px; overflow:hidden;}
+#product-tabs .tabs-content .border-left{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_border.gif) left top repeat-y #ffffff;}
+#product-tabs .tabs-content .border-right{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_border.gif) right top repeat-y;}
+#product-tabs .tabs-content .border-right .block-width{width:677px; overflow:hidden; position:relative; padding-left:17px;}
+#product-tabs .tabs-content .tabs-content-bot{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_corner_left_bot.gif) left top no-repeat;}
+#product-tabs .tabs-content .tabs-content-bot div{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_corner_right_bot.gif) right top no-repeat;}
+#product-tabs .tabs-content .tabs-content-bot div div{background:url(http://www.akhoni.com/skin/frontend/default/akhoni/images/tabs_border.gif) left 4px repeat-x #ffffff; margin:0 5px; height:5px; overflow:hidden;}
+#tabber{ display:block; width:3000px; list-style:none; overflow:hidden;}
+#tabber .tabs-list{width:677px; float:left; display:block; margin-right:47px; text-align:justify;color: #787878; font-family: Tahoma; padding: 18px 0;}
+.tabs-list .cust_label_price2 {  position:relative; }
+.tabs-list .cust_label_price2 .price { font-weight:bold; font-size:15px; float:left; }
+#tabber .tabs-list h2 {display: none;}
+
+#product-tabs button.button span
+{
+    padding:0;
+}
+#product-tabs button.button span span
+{
+    border: none;
+    background: url(http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png) repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    display: block;
+    height: 30px;
+    line-height:27px;
+    /*width: 87px;*/
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+    padding: 0 10px;
+}
+
+#product-tabs .box-tags .input-box
+{
+    margin-top: 1px;
+}
+
+#product-tabs .box-tags button.button
+{
+    /*width: 89px;
+    height: 24px;*/
+}
+
+#product-tabs .box-tags .input-box, #product-tabs .box-tags .note
+{
+    padding: 0;
+}
+
+#product-tabs .tabs-content a
+{
+    color: #454545;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel
+{
+    overflow: hidden;
+}
+
+
+/* Example 2 ---------------------------------- */
+
+#e_slider
+{
+    width: 755px;
+    height: 86px;
+    padding-bottom: 6px;
+}
+
+#e_slider a
+{
+    display: table-cell;
+    vertical-align: middle;
+    height: 72px;
+    text-align: center;
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/estore_slider.png") repeat-x scroll 0 0 transparent;
+    z-index: 1;
+}
+
+#e_slider a img
+{
+    margin: 0 5px;
+}
+
+#e_slider a:hover
+{
+    -moz-box-shadow:0 0 10px #A5A5A5;
+    -webkit-box-shadow:0 0 10px #A5A5A5;
+    box-shadow:0 0 10px #A5A5A5;
+    background: none;
+    position: relative;
+    z-index: 500;
+    border: 1px solid #D7D7D7;
+}
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/* Widgets =============================================================================== */
+.widget { display:inline; }
+.widget .widget-title { clear:both; padding:15px 0 0; margin:0 0 7px; }
+.widget .widget-title h2 { font-size:15px; font-weight:bold; color:#e25203; }
+
+.widget .mini-products-images-list .product-image { display:block; width:76px; height:76px; border:1px solid #a9a9a9; margin:0 auto; }
+.widget .mini-products-images-list li.item { float:left; width:77px; height:77px; }
+
+/* Widget: Catalog New Proructs List */
+.widget-new-products { display:block; }
+.col-main .widget-new-products { margin:7px 0; }
+.widget-new-products .products-grid .product-image,
+.widget-new-products .products-list .product-image { width:85px; height:85px; }
+.widget-new-products .products-list .product-shop { margin-left:100px; }
+.sidebar .widget-new-products .block { font-size:11px; line-height:1.25; }
+.sidebar .widget-new-products .block-title strong { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_widget-new.gif) 0 1px no-repeat; padding-left:21px; color:#dc5033; }
+
+/* Widget: Recently Viewed Proructs */
+.widget-viewed { display:block; }
+.col-main .widget-viewed { margin:7px 0; }
+.widget-viewed .products-grid .product-image,
+.widget-viewed .products-list .product-image { width:85px; height:85px; }
+.widget-viewed .products-list .product-shop { margin-left:100px; }
+.sidebar .widget-viewed .block { font-size:11px; line-height:1.25; }
+.sidebar .widget-viewed .block-title strong { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_block-list.gif) 0 0 no-repeat; padding-left:21px; }
+
+/* Widget: Recently Compared Proructs */
+.widget-compared { display:block;}
+.col-main .widget-compared { margin:7px 0; }
+.widget-compared .products-grid .product-image,
+.widget-compared .products-list .product-image { width:85px; height:85px; }
+.widget-compared .products-list .product-shop { margin-left:100px; }
+.sidebar .widget-compared .block { font-size:11px; line-height:1.25; }
+.sidebar .widget-compared .block-title strong { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_block-list.gif) 0 0 no-repeat; padding-left:21px; }
+
+/* Widget: CMS Static Block */
+.widget-static-block {}
+.sidebar .widget-static-block { display:block; margin:0 0 15px; }
+
+/* Widgets: Links Common Styles */
+.top-container .widget a { padding:0 0 0 7px; }
+
+.bottom-container .widget a { padding:0 3px; }
+
+/* Widget: Catalog Product Link */
+.widget-product-link-inline { display:inline; }
+
+.col-main .widget-product-link { display:block; text-align:right; margin:7px 0; }
+.col-main .widget-product-link a { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
+
+.sidebar .widget-product-link { display:block; margin:0 0 15px; padding:0 10px; }
+.sidebar .widget-product-link a { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
+
+/* Widget: Catalog Category Link */
+.widget-category-link-inline { display:inline; }
+
+.col-main .widget-category-link { display:block; text-align:right; margin:7px 0; }
+.col-main .widget-category-link a { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
+
+.sidebar .widget-category-link { display:block; margin:0 0 15px; padding:0 10px; }
+.sidebar .widget-category-link a { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
+
+/* Widget: CMS Page Link */
+.widget-cms-link-inline { display:inline; }
+
+.col-main .widget-cms-link { display:block; text-align:right; margin:7px 0; }
+.col-main .widget-cms-link a { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding-right:15px; }
+
+.sidebar .widget-cms-link { display:block; margin:0 0 15px; padding:0 10px; }
+.sidebar .widget-cms-link a { background:url(http://www.akhoni.com/skin/frontend/base/default/images/widgets/i_widget-link.gif) 100% 4px no-repeat; padding:0 15px 0 0; }
+/* ======================================================================================= */
+
+#deepzoom_container
+{
+    width: 298px;
+    height: 298px;
+    border:1px solid #d7d7d7;
+}
+#deepzoom_gallery
+{width: 480px;height: 400px;}
+#gallery_container
+{width: 400px;height: 400px;float: left;}
+#deepzoom_gallery a.gallery-next
+{float: right;width: 40px;height: 40px;margin-top: 50%;}
+#deepzoom_gallery a.gallery-prev
+{float: left;width: 40px;height: 40px;margin-top: 50%;}
+DIV.ajaxcartpro_progress{
+	border: 1px #999999 solid;
+	display: block;
+	position: fixed;
+	text-align: center;
+	padding: 10px;
+	background-color: #ffffff;
+	z-index: 9999;
+    color: black;
+	//position:absolute;
+	//top: expression(parseInt(document.documentElement.scrollTop, 10) +window.ACPTop+ "px");
+}
+
+DIV.ajaxcartpro_confirm{
+	border: 1px #999999 solid;
+	display: block;
+	position: fixed;
+	text-align: center !important;
+	padding: 10px;
+	background: white;
+	z-index: 9999;
+    color: black;
+    min-heigth:104px;
+    height:auto!important;
+    /*-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;*/
+    -moz-box-shadow: 3px 3px 5px #595959, 0px 0px 0px #595959;
+    -webkit-box-shadow: 3px 3px 5px #595959, 0px 0px 0px #595959;
+    box-shadow: 3px 3px 5px #595959, 0px 0px 0px #595959;
+
+	//position:absolute;
+	//top: expression(parseInt(document.documentElement.scrollTop, 10) +200+ "px");
+}
+
+DIV.ajaxcartpro_confirm p{
+	width: 260px;
+    /*color: white;*/
+}
+
+#aw_acp_continue, #aw_acp_checkout{
+	padding:0;
+	line-height:24px;
+	height:24px;
+	margin:0px auto;
+	display:block;
+	font-family:Arial;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration:none;
+}
+
+
+#aw_acp_continue{
+	color:#333;
+	background:url('http://www.akhoni.com/skin/frontend/default/default/ajaxcartpro/images/btn_continue_shopping.png');
+	width:144px;
+}
+
+
+#aw_acp_checkout{
+	color:#fff;
+	background:url('http://www.akhoni.com/skin/frontend/default/default/ajaxcartpro/images/btn_view_cart.png');
+	width:164px;
+}
+
+#acp_configurable_block dt
+{
+    text-align: left;
+}
+
+#acp_configurable_block .price
+{
+    font-size: 14px;
+}
+
+#acp_configurable_block .product-name
+{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#acp-overlay
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#000;
+    -moz-opacity: 0.3;
+    opacity:.30;
+    filter: alpha(opacity=30);
+    z-index: 100;
+}
+#acp-overlay[id]{ /* IE6 and below Can't See This */
+    position:fixed;
+}
+
+#acp_product_options
+{
+    display: block;
+    width: 400px;
+    height: auto !important;
+    position: fixed;
+    z-index:1000;
+    background-color: white;
+    padding: 10px;
+    //position:absolute;
+    //top: expression(parseInt(document.documentElement.scrollTop, 10) +window.ACPTop+ "px");
+}
+
+#product-options-wrapper
+{
+     margin:0;
+}
+
+.product-options .options-list li
+{
+    text-align: left;
+}
+
+/**
+ * aheadWorks Co.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://ecommerce.aheadworks.com/LICENSE-M1.txt
+ *
+ * @category   AW
+ * @package    AW_Ajaxcatalog
+ * @copyright  Copyright (c) 2011 aheadWorks Co. (http://www.aheadworks.com)
+ * @license    http://ecommerce.aheadworks.com/LICENSE-M1.txt
+ */ 
+
+.awac-button {
+    height: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.awac-button  .button-label-container {
+    height: 30px;
+    left: 50%;
+    position: absolute;
+    width: 320px;
+}
+
+.awac-button .button-label {
+    background: url("http://www.akhoni.com/skin/frontend/default/default/awajaxcatalog/images/button-bkg.png") repeat-x scroll 0 2px #EEEEEE;
+    border-color: #CCCCCC #999999 #999999 #CCCCCC;
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    height: 26px;
+    left: -50%;
+    margin-top: 4px;
+    padding-top: 3px;
+    position: absolute;
+    text-align: center;
+    width: 320px;
+}
+
+.awac-button.hidden * {
+    display: none;
+}
+
+.awac-button .button-label span {
+    font-size: 14px;
+}
+
+.awac-button .button-label span.loading {
+    display: none;
+}
+
+.awac-button .button-label.loading span.loading {
+    display: block;
+}
+
+.awac-button .button-label.loading span.label {
+    display: none;
+}
+
+.robot-link {
+    position: absolute;
+    left: -1000px;
+}
+
+.awac-loader {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.awac-loader .loader-label {
+    display: none;
+}
+
+.awac-loader  .loader-label.loading {
+    display: block;
+    position: relative;
+}
+.awac-loader  .loader-label.loading .loading
+{
+    padding-left: 3px;
+    padding-top: 8px;
+    position: absolute;
+}
+
+.awac-loader .loader-label img.loading {
+    background: url("http://www.akhoni.com/skin/frontend/default/default/awajaxcatalog/images/ajax-loader.gif") no-repeat scroll 0 0 transparent;    
+    width: 16px;
+    height: 16px;
+}
+
+/* 'Back to Top' button */
+#awac-back-to-top,
+#awac-back-to-top.visible {
+    display: none;
+}
+
+#awac-back-to-top
+{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 50%;
+    cursor: pointer;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: url("http://www.akhoni.com/skin/frontend/default/default/awajaxcatalog/images/top_hover.png") no-repeat transparent;  
+	z-index:100;
+    text-indent: -9999px;
+}
+#awac-back-to-top:hover
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/default/awajaxcatalog/images/top_hover.png") no-repeat scroll 95% 0 transparent;
+}
+#awac-back-to-top.visible {
+    display: inline;
+}
+
+
+
+
+
+.fb-connect-container{margin:30px 0;}
+#fb-loader .loader
+{
+    border:1px solid #ccc; 
+    padding:8px; 
+    text-align:center;
+    background:#fff; 
+    width:212px
+    z-index:1000; 
+    position:fixed; 
+    top:45%; 
+    left:46%; 
+    -moz-opacity:0.8; 
+    opacity:0.8; 
+    filter:alpha(opacity=80);
+}
+
+.aw-fb-login-button  {
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.3em 0.6em 0.375em;
+    border: 1px solid #999;
+    border-bottom-color: #888;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+
+    /* IE */
+    zoom: 1;
+    *display: inline;
+
+    border-color: #29447E #29447E #1A356E;
+    color: #fff;
+    background-color: #5B74A8;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#637bad), to(#5872a7));
+    background-image: -moz-linear-gradient(#637bad, #5872a7);
+    background-image: -o-linear-gradient(#637bad, #5872a7);
+    background-image: linear-gradient(#637bad, #5872a7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#637bad', EndColorStr='#5872a7'); /* for IE 6 - 9 */
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+}
+
+/*.aw-fb-login-button:hover,
+.aw-fb-login-button:focus,
+.aw-fb-login-button:active {
+    border-color: #777 #777 #666;
+}
+
+.aw-fb-login-button:active {
+    border-color: #29447E;
+    background: #4F6AA3;
+    filter: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}*/
+
+/* Firefox */
+.aw-fb-login-button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.uiIconText
+{
+    width: 130px !important;
+}
+#referafriend{
+    display:none;
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index:9999;
+    width:350px;
+    margin:-300px 0 0 -150px;
+    /*background-color: #fff;*/
+}
+#referafriend[id]{ /* IE6 and below Can't See This */
+    position:fixed;
+}
+/*#referafriend h3 {margin-bottom: 20px;}*/
+#referafriend h4 {padding: 4px 0;}
+#referafriend .group-select {margin: 0;}
+
+#referafriend-overlay{
+    display:none;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:5000;   
+    background-color:#000;
+    -moz-opacity: 0.3;
+    opacity:.30;
+    filter: alpha(opacity=30);
+}
+
+#referafriend-overlay[id]{ /* IE6 and below Can't See This */
+    position:fixed;
+}
+
+#referafriend.done #rafLoadMessage{
+	display:none;
+}
+#referafriend.done #rafContent{
+	display:block;
+}
+#referafriend.loading #rafContent{
+	display:none;
+}
+#referafriend.loading #rafLoadMessage{
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #000;
+	display:block;
+	background-color: #fff;
+	width: 100px;
+	padding: 10px;
+	margin: 250px 0 0 120px;
+}
+
+.referafriend-please-wait {
+	padding-right:7px;
+}
+/*
+#referafriend.done img{
+	width:100%;
+	height:100%;
+}
+*/
+#raf-invite .group-select { 
+    margin:28px 0; 
+    border:1px solid #bbafa0;
+    padding:22px 25px 12px 25px;
+    background:#fbfaf6;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#raf-invite .group-select li .input-box .input-text,#raf-invite .group-select li .input-box textarea { 
+width:275px;
+}
+
+#raf-invite .button-set{ 
+    border-top:1px solid #E4E4E4; 
+    clear:both; 
+    margin-top:4em; 
+    padding-top:8px; 
+    text-align:right; 
+    margin-bottom: 10px;
+} 
+#raf-invite .button-set .form-button 
+{
+    height:24px;
+    line-height: 24px;
+    display: inline;
+    margin-right: 5px;
+}
+#raf-invite .button-set .form-button span 
+{
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/common_button.png") repeat-x scroll 0 0 transparent;
+    /*border:1px solid #d89d09;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: bold;
+    color:#651149;
+    height:30px;
+    line-height: 29px;
+    display:block;
+}
+#raf-invite .buttonlist li span a, .rightlink li span a, .form-button, button.button span 
+{ 
+     display:block;
+}
+
+.raf-right
+{
+	text-align: left;
+    margin:3px 0 5.5px;
+    display: block;
+    float: left;
+    width: 170px;
+    height: 130px;
+    clear: both;
+}
+
+.form-button-alt#referafriend-button {
+}
+/******************************** Footer ***************************************/
+@font-face {
+font-family: Arial Rounded MT Bold;
+src: url('http://www.akhoni.com/skin/frontend/default/akhoni/fonts/ArialRoundedMTBold.ttf');
+}
+
+.form-button-alt#referafriend-button span {
+    background: url("http://www.akhoni.com/skin/frontend/default/akhoni/images/footer/footer_three.png") no-repeat;
+    background-position: left bottom;
+    border: none;
+    color:#282828;
+    font-family: Arial Rounded MT Bold;
+    font-weight:normal;
+    font-size:14px;
+    text-decoration: none;
+    padding-left:0px;
+    height:125px;
+    margin-bottom:5px;
+    width:170px;
+}
+
+#referafriend-form span.required {
+    color: #EB340A;
+}
+
+/* Product Detail sidebar */
+.aw-mini-related-items .head h4 { /*background:url(http://www.akhoni.com/skin/frontend/default/default/relatedproducts/images/icon_clip.gif) left 5px no-repeat;*/ }
+.aw-mini-related-items .product-images { width:72px; }
+.aw-mini-related-items .product-images a { display:block; margin-left:20px; }
+.aw-mini-related-items .product-images input { float:left; /*margin-right:4px; margin-left:-6px;*/ }
+.aw-mini-related-items .product-images .checkbox-container { float:left; width:15px; }
+.aw-mini-related-items .product-details { margin-left:80px; padding-left:25px; }
+.aw-mini-related-items ol li { padding-left:0 ; padding-right:0; }
+
+/* Base Mini */
+.aw-base-mini { /*border:1px solid #c4c1bc; background:#fff; line-height:1.3em;  font-size:.95em;*/  }
+.aw-base-mini .head { border-bottom: 1px solid #d7d7d7;margin: 0;}
+.aw-base-mini .head h2 { color:#454545; font-size: 12px; font-weight: bold; height: 31px; line-height: 31px;}
+.aw-base-mini .head h4 .count { text-transform:none; color:#2f2f2f; white-space:nowrap; font-weight:normal; font-size:.95em; }
+.aw-base-mini h5 { font-size:1em; }
+.aw-base-mini .aw-content, .aw-base-mini ol { /*background:#f8f7f5;*/ }
+.aw-base-mini ol li { padding:7px 4px 7px 0px; }
+.aw-base-mini ol li.odd { background:#f4f3f3; }
+.aw-base-mini ol li.even { background:#fafafa; }
+.aw-base-mini .actions { background:url(http://www.akhoni.com/skin/frontend/default/default/relatedproducts/images/base_mini_actions_bg.gif) repeat-x #dee5e8; padding:6px; }
+.aw-base-mini .product-images { float:left; width:52px; height:52px; }
+.aw-base-mini .product-images a img { border:1px solid #a9a9a9; vertical-align:top; }
+.aw-base-mini .product-checkbox { float:left; width:10px; }
+.aw-base-mini .product-names { margin-left:18px; }
+.aw-base-mini .product-details { margin:0 0 0 60px; height:50px; }
+.aw-base-mini .product-details[class] { height:auto; min-height:50px; }
+.aw-base-mini .regular-price { font-size:11px; }
+.aw-base-mini .regular-price .price { color:#2f2f2f; }
+.aw-base-mini .special-price { font-size:11px; }
+.aw-base-mini .minimal-price { font-size:11px; }
+.aw-base-mini .price-box { margin:1px 0; }
+
+.aw-link-cart { /*color:#DC6809 !important; font-weight:bold !important;*/ }
+.aw-content { /*color:#1b2d3b; padding:12px 12px 12px 15px; */} /* Sets default padding */
+.aw-content#after1400 { /*padding:9px 9px 9px 12px !important;*/ } /* Sets default padding for Magento 1.4.* */
+
+.side-col .aw-box { margin-bottom:1.3em; }
+.side-col .aw-content { padding:5px 10px; }
+
+.shopping-cart-collaterals .aw-box {
+    margin-bottom:18px;
+    padding:12px 15px;
+    border:1px solid #D0CBC1;
+    background:url(http://www.akhoni.com/skin/frontend/default/default/relatedproducts/images/base_mini_head_bg.gif) repeat-x #fff;
+    }
+.shopping-cart-collaterals .aw-box .form-button  {  margin-left:5px; }
+
+
+.aw-mini-related-items
+{
+    margin: 8px 20px 37px 0;
+    clear: both;
+    background: #FFFFFF;
+    border:1px solid #d7d7d7;
+    -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;
+    font-family: Tahoma;
+    overflow: hidden;
+    padding: 8px 13px 0;
+}
+
+.aw-mini-related-items .products-grid
+{
+    width:686px;
+    padding-bottom: 22px;
+}
+
+.aw-mini-related-items .products-grid li.item
+{
+    border-right: 1px solid #D7D7D7;
+    display: block;
+    height: 300px;
+    margin-top: 18px;
+    width: 187px;
+}
+
+.aw-mini-related-items .products-grid .product-image
+{
+    margin: 0 auto 10px;
+}
+
+.aw-mini-related-items .products-grid .product-name a 
+{
+    color: #282828;
+    font-family: tahoma;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.aw-mini-related-items .products-grid .product-name 
+{
+    height: 40px;
+    /*margin: 0 0 5px;*/
+    padding: 0 15px;
+    /*margin-top: 10px;*/
+    clear: both;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.aw-mini-related-items .products-grid li.item .price-box 
+{
+    margin-left: 15px;
+    margin-top:18px;
+    margin: 0 0 0 15px;
+    overflow: hidden;
+}
+.aw-mini-related-items .products-grid li.item .price-box .regular-price .price 
+{
+    color: #282828;
+}
+.aw-mini-related-items .products-grid li.item .price-box .old-price
+{
+    float:right;
+    padding-right: 12px;
+    padding-top: 1.5px;
+}
+.aw-mini-related-items .products-grid li.item .price-box .old-price .price
+{
+    color:#8b8989;
+    text-decoration: line-through;
+    font-size: 13px;
+    font-weight: normal;
+}
+.aw-mini-related-items .products-grid li.item .price-box .special-price 
+{
+    float: left;
+    padding:1px 0;
+    margin-bottom: 0;
+}
+.aw-mini-related-items .products-grid li.item .price-box .special-price .price
+{
+    color:#282828;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.aw-mini-related-items .products-grid li.item .price-box .price_discounts
+{
+    clear: both;
+    /*float: left;*/
+    font-family: Tahoma;
+    margin-top: 7px;
+}
+.aw-mini-related-items .products-grid li.item .price-box .price_discounts .discount
+{
+    color: #6B1846;
+    font-size: 11px;
+    margin-right: 10px;
+}
+.aw-mini-related-items .products-grid li.item .price-box .price_discounts .saved_amount
+{
+    float: right;
+    font-size: 11px;
+    margin-right: 12px;
+}
+/*.aw-mini-related-items .products-grid li.item .price-box .price_discounts span
+{
+    display: block;
+    clear: both;
+}*/
+
+
+
+
+
+
+
+.protoshow,
+.protoshow .show 
+{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 510px;
+	height: 208px;
+}
+
+.slide 
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	height: 100%;
+}
+
+.active-slide 
+{
+	z-index: 100;
+}
+
+/* PROTO CONTROLS
+------------------------------------------------*/
+
+.proto-controls li {
+	display:none;
+}
+.proto-progress-timer 
+{
+    display:none;
+}
+/* PROTO NAVIGATION
+------------------------------------------------*/
+#myshow1 .proto-navigation
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+    right:17px;
+    top:170px;
+    position: absolute;
+}
+.proto-navigation a:link,
+.proto-navigation a:visited 
+{
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.proto-navigation 
+{
+	position: absolute;
+  	top: 0;
+    right: 50%;
+    float: right;
+    z-index: 120;
+}
+
+.proto-navigation li 
+{
+    float: left;
+    left: 50%;
+    padding: 12px 2px;
+
+}
+
+.proto-navigation a 
+{
+	background: url("http://www.akhoni.com/skin/frontend/default/default/banner/images/control.png") repeat-x scroll 0 0 transparent;
+    height: 14px;
+    text-decoration: none;
+  	 width: 14px;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+}
+.proto-navigation .current-slide a 
+{
+	background: url("http://www.akhoni.com/skin/frontend/default/default/banner/images/current_control.png") repeat-x scroll 0 0 transparent;
+}
+
+.slide-caption
+{
+    display: none;
+}

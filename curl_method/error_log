@@ -1,0 +1,10 @@
+[24-May-2013 09:21:05] PHP Fatal error:  Call to undefined function  adb_rest() in /home5/skyshopb/public_html/curl_method/index.php on line 3
+[24-May-2013 09:21:09] PHP Fatal error:  Call to undefined function  adb_rest() in /home5/skyshopb/public_html/curl_method/index.php on line 3
+[24-May-2013 09:21:12] PHP Fatal error:  Call to undefined function  adb_rest() in /home5/skyshopb/public_html/curl_method/index.php on line 3
+[24-May-2013 09:35:09] PHP Parse error:  syntax error, unexpected '.' in /home5/skyshopb/public_html/curl_method/db.php on line 2
+[24-May-2013 09:35:58] PHP Parse error:  syntax error, unexpected '.' in /home5/skyshopb/public_html/curl_method/db.php on line 2
+[24-May-2013 09:36:31] PHP Parse error:  syntax error, unexpected '.' in /home5/skyshopb/public_html/curl_method/db.php on line 2
+[24-May-2013 10:38:31] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/skyshopb/public_html/curl_method/index.php on line 5
+[24-May-2013 10:38:35] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/skyshopb/public_html/curl_method/index.php on line 5
+[24-May-2013 11:50:53] PHP Parse error:  syntax error, unexpected '}' in /home5/skyshopb/public_html/curl_method/importing_csv.php on line 94
+[24-May-2013 12:00:02] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting T_VARIABLE or '$' in /home5/skyshopb/public_html/curl_method/importing_csv.php on line 42
