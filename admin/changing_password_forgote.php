@@ -50,7 +50,9 @@ if($count >> 0)
 		else // SUCCESS
 		{	
            //checking this ??? 
-          
+           $_SESSION['admin_access']=$user_id;
+		   $_SESSION['user_id']=$user_id;
+		   $_SESSION['password']=$password;;
            
 		   
 			
