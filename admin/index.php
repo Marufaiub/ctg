@@ -95,7 +95,10 @@ if(isset($_SESSION['admin_access_error']))
         <input type="password" name="password" class="input-block-level" placeholder="Password">
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> Remember me
+          <br/>
+          <a href="forgot_password.php" style="font-size:9px">Forgot Password</a>
         </label>
+        
         <button class="btn btn-large btn-primary" type="submit">Sign in</button>
       </form>
 
