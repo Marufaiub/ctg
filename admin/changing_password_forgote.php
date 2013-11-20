@@ -7,9 +7,9 @@ session_start();
 
 <?php
 
-$email= mysql_escape_string($_POST['admin_email']);
+$email= mysql_escape_string($_POST['email']);
 $token= mysql_escape_string($_POST['token']);
-$password= mysql_escape_string($_POST['admin_password']);
+$password= mysql_escape_string($_POST['password']);
 
 // Generating hash password
 for ($i=0; $i<=31; $i++)

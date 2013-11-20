@@ -50,7 +50,7 @@
 
 </center>
 
-  <div class="container">
+  <div class="container" align="center">
     
     
 <?php
@@ -86,10 +86,10 @@ $token= mysql_escape_string($_REQUEST['token']);
       <form name="myForm" class="form-signin" action="changing_password_forgote.php" method="post" onsubmit="return validateForm()">
       <input type="hidden" name="email" value="<?php echo $email; ?>"> 
       <input type="hidden" name="token" value="<?php echo $token; ?>">
-        <h4 class="form-signin-heading">Enter Your New Password :  </h4>
-        <input type="password" name="password" class="input-block-level" placeholder="New Password">
-        <h4 class="form-signin-heading">Re-Type Password :  </h4>
-        <input type="password" name="re_password" class="input-block-level" placeholder="Re-Type Passwor">
+        <h4 class="form-signin-heading">Enter Your New Password :</h4>
+        <input type="password" name="password"  placeholder="New Password">
+        <h4 class="form-signin-heading">Re-Type Password :</h4>
+        <input type="password" name="re_password"  placeholder="Again Password">
         <button class="btn btn-large btn-primary" type="submit">OK</button>
       </form>
       
